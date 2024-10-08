@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos de css</title>
+    <link rel="stylesheet" href="estilos/estiloIndex.css">
+    
+</head>
+<body>
+    <header id="arriba">
+
+        <div id="cabeza">
+            <div id="tit">
+                <h1><a href="index.html">Atlantic HTML</a></h1>
+            </div>
+        </div>
+        <nav id="nave">
+            <ul>
+                <!-- Parte Getsemaní -->
+                <!-- <li>Etiquetas iniciales</li> -->
+                <li><a href="etEst.html">Etiquetas de estructura</a></li>
+                <!-- <li>Etiquetas de metadatos</li> -->
+                <li><a href="etAgru.html">Etiquetas de agrupación</a></li>
+                <!-- Parte Abel -->
+                <li><a href="etTexto.html">Etiquetas de texto</a></li>
+                <!-- <li>Etiquetas multimedia</li> -->
+                <li><a href="etTablas.html">Etiquetas de tablas</a></li>
+                <!-- <li>Formularios <br>-</li> -->
+                <li><a href="etForms.html">Etiquetas de formulario</a></li>
+
+                <li><a href="etEstilos.html">Hojas de Estilos y atributos</a></li>                
+
+                <li><a href="etFrame.html">Frameworks - Materialize web</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <div id="secCambiante">
+
+        <aside id="masInfo">
+            <div>
+                <h3>Índice de todas las etiquetas</h3>
+                <ul>
+                    <!-- Parte Getsemaní -->
+
+                    <li><a href="etEst.html">Etiquetas de estructura</a></li>
+                        <ul>
+                            <li>&lt;body&gt;</li>
+                            <li>&lt;nav&gt;</li>
+                            <li>&lt;main&gt;</li>
+                            <li>&lt;section&gt;</li>
+                            <li>&lt;article&gt;</li>
+                            <li>&lt;aside&gt;</li>
+                            <li>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</li>
+                            <li>&lt;header&gt;</li>
+                            <li>&lt;footer&gt;</li>
+                        </ul>
+                        
+
+                        
+
+                    </li>
+                    <br>
+
+
+                    <li><a href="etAgru.html">Etiquetas de agrupación</a></li>
+                    <ul>
+                        <li>&lt;p&gt;</li>
+                        <li>&lt;hr&gt;</li>
+                        <li>&lt;pre&gt;</li>
+                        <li>&lt;blockquote&gt;</li>
+                        <li>&lt;ol&gt;</li>
+                        <li>&lt;ul&gt;</li>
+                        <li>&lt;li&gt;</li>
+                        <li>&lt;dl&gt;</li>
+                        <li>&lt;dt&gt;</li>
+                        <li>&lt;dd&gt;</li>
+                        <li>&lt;figure&gt;</li>
+                        <li>&lt;figcaption&gt;</li>
+                        <li>&lt;div&gt;</li>
+                    </ul>
+                    <br>
+                    <!-- Parte Abel -->
+                    <li> <a href="etTexto.html">Etiquetas de texto</a>
+
+                        <ul>
+                            <li>&lt;a&gt;</li>
+                            <li>&lt;strong&gt;</li>
+                            <li>&lt;small&gt;</li>
+                            <li>&lt;cite&gt;</li>
+                            <li>&lt;sub&gt; y &lt;sup&gt;</li>
+                            <li>&lt;mark&gt;</li>
+                            <li>&lt;span&gt;</li>
+                            <li>&lt;br&gt;</li>
+                        </ul>
+                        
+                    </li>
+                    <br>
+
+
+                    <li><a href="etTablas.html">Etiquetas de tablas</a>
+                        <ul>
+                            <li>&lt;table&gt;</li>
+                            <li>&lt;caption&gt;</li>
+                            <li>&lt;colgroup&gt;</li>
+                            <li>&lt;tbody&gt;</li>
+                            <li>&lt;thead&gt;</li>
+                            <li>&lt;tfoot&gt;</li>
+                            <li>&lt;tr&gt;</li>
+                            <li>&lt;td&gt;</li>
+                            <li>&lt;th&gt;</li>
+                        </ul>
+                        
+
+                    </li>
+                    <br>
+                    <li><a href="etForms.html">Etiquetas de formularios</a>
+                        <ul>
+                            <li>&lt;form&gt;</li>
+                            <li>&lt;legend&gt;</li>
+                            <li>&lt;label&gt;</li>
+                            <li>&lt;input&gt;</li>
+                            <li>&lt;button&gt;</li>
+                            <li>&lt;select&gt;</li>
+                            <li>&lt;option&gt;</li>
+                            <li>&lt;textarea&gt;</li>
+                            
+                        </ul>
+                        
+
+                    </li>
+                    <br>   
+                    <li><a href="etFrame.html">Framework Materialize web</a>
+                        <ul>
+                            <li>Badges</li>
+                            <li>Buttons</li>
+                            <li>Breadcrumbs</li>
+                            <li>Cards</li>
+                            <li>Collections</li>
+                            <li>Floating action button</li>
+                            <li>Footer</li>
+                            
+                            <li>Navbar</li>
+                            <li>Pagination</li>
+                            <li>Preloader</li>
+
+                            
+                        </ul>
+                        
+
+                    </li>    
+                    <br>
+                </ul>
+
+            </div>            
+        </aside>
+        
+        <div id="contenido">
+           <h2>Estilos principales de CSS</h2>
+           <hr>
+            <p>
+                Los atributos en HTML proporcionan información adicional sobre un elemento HTML. Se colocan dentro de las etiquetas de los elementos y están compuestos por un nombre y un valor. <br>Los atributos modifican el comportamiento y la apariencia de los elementos HTML. 
+            </p>
+            <p>
+                CSS (Cascading Style Sheets) se utiliza para definir la presentación y el diseño de los elementos HTML. Los estilos CSS permiten controlar aspectos visuales como colores, fuentes, márgenes y posiciones.                
+            </p>
+           <!-- Tabla de contenidos -->
+            <div class="cotenedor2m">
+                <div id="tablaContenido" style="width: 40%;">
+                    <h4>Índice de contenidos</h4>
+                    <ol>
+                        <li><a href="#et1">"color"</a></li>
+                        <li><a href="#et2">"background-color"</a></li>
+                        <li><a href="#et3">"font-size"</a></li>
+                        <li><a href="#et4">"margin"</a></li>
+                        <li><a href="#et5">"padding"</a></li>
+                        <li><a href="#et6">"border"</a></li>
+                        <li><a href="#et7">"width"</a></li>
+                        <li><a href="#et8">"height"</a></li>
+                        <li><a href="#et9">"text-align"</a></li>
+                        <li><a href="#et10">"display"</a></li>
+                        
+                    </ol>
+                </div>
+                <div>
+                    <img src="img/estilos/css.png" alt="" width="300px" height="200px">
+                </div>
+            </div>
+
+
+            <br><br>
+            <hr>
+           <!-- Formato de disposición para cada etiqueta y así explicar su información -->
+            <div class="carta" id="et1">
+                <h2 class="titCarta">Atributo  color</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            color
+                        </p>
+                        <p class="etiExplica">
+                            El atributo color en CSS se utiliza para especificar el color del texto de un elemento HTML. Permite cambiar el color de cualquier texto dentro del elemento al que se aplique.
+                            <br><br>
+                            La propiedad color define el color del texto en el contenido de un elemento HTML. Puede afectar a etiquetas como "p", "h1", "div", y cualquier otro elemento que contenga texto. Además, se puede usar para definir colores en pseudo-elementos como ::before y ::after.                            
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>Nombres de colores:</strong> Utiliza nombres predefinidos en CSS. Ejemplos incluyen:
+                          <ul>
+                            <li><code>red</code> - Rojo</li>
+                            <li><code>blue</code> - Azul</li>
+                            <li><code>green</code> - Verde</li>
+                            <li><code>black</code> - Negro</li>
+                            <li><code>white</code> - Blanco</li>
+                          </ul>
+                        </li>
+                        <li><strong>Código hexadecimal:</strong> Representa colores usando un código de 6 dígitos precedido por <code>#</code>. Ejemplos:
+                          <ul>
+                            <li><code>#FF5733</code> - Un tono de naranja</li>
+                            <li><code>#00FF00</code> - Verde puro</li>
+                          </ul>
+                        </li>
+                        <li><strong>Valores RGB:</strong> Especifica colores usando tres valores numéricos para rojo, verde y azul en el formato <code>rgb(255, 0, 0)</code>. Ejemplos:
+                          <ul>
+                            <li><code>rgb(255, 0, 0)</code> - Rojo puro</li>
+                            <li><code>rgb(0, 255, 0)</code> - Verde puro</li>
+                          </ul>
+                        </li>
+                        <li><strong>Valores RGBA:</strong> Similar a RGB pero con un valor adicional para la opacidad (alpha), en el formato <code>rgba(255, 0, 0, 0.5)</code>. Ejemplos:
+                          <ul>
+                            <li><code>rgba(255, 0, 0, 0.5)</code> - Rojo con 50% de opacidad</li>
+                            <li><code>rgba(0, 255, 0, 0.75)</code> - Verde con 75% de opacidad</li>
+                          </ul>
+                        </li>
+                        <li><strong>Valores HSL:</strong> Representa colores usando tono, saturación y luminosidad en el formato <code>hsl(120, 100%, 50%)</code>. Ejemplos:
+                          <ul>
+                            <li><code>hsl(120, 100%, 50%)</code> - Verde puro</li>
+                            <li><code>hsl(240, 100%, 50%)</code> - Azul puro</li>
+                          </ul>
+                        </li>
+                        <li><strong>Valores HSLA:</strong> Similar a HSL pero con un valor adicional para la opacidad, en el formato <code>hsla(120, 100%, 50%, 0.5)</code>. Ejemplos:
+                          <ul>
+                            <li><code>hsla(120, 100%, 50%, 0.5)</code> - Verde con 50% de opacidad</li>
+                            <li><code>hsla(240, 100%, 50%, 0.75)</code> - Azul con 75% de opacidad</li>
+                          </ul>
+                        </li>
+                      </ul>
+                                        
+                    
+                                        
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="img/estilos/colorc.PNG" alt="" width="700px" height="100px">
+                        <img src="img/estilos/colore.PNG" alt="" width="200px" height="100px">
+                    </div>
+
+                </div>                
+
+            </div>            
+            <br><br>
+            <div class="carta" id="et2">
+                <h2 class="titCarta">Atributo background-color</h2>
+                <div class="cotenedor2m">
+                    <p class="eti">
+                       background-color
+                    </p>
+                    <p class="etiExplica">
+                        La propiedad <code>background-color</code> en CSS se utiliza para especificar el color de fondo de un elemento HTML. Permite cambiar el color del área de fondo de cualquier elemento al que se aplique.
+                        <br><br>
+                        La propiedad <code>background-color</code> define el color del fondo en el contenido de un elemento HTML. Puede afectar a etiquetas como "div", "p", "section", y cualquier otro elemento que se desea destacar con un color de fondo. También se puede usar para definir colores de fondo en pseudo-elementos como <code>::before</code> y <code>::after</code>.
+                    </p>
+                </div>
+            
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>Nombres de colores:</strong> Utiliza nombres predefinidos en CSS. Ejemplos incluyen:
+                            <ul>
+                                <li><code>red</code> - Rojo</li>
+                                <li><code>blue</code> - Azul</li>
+                                <li><code>green</code> - Verde</li>
+                                <li><code>black</code> - Negro</li>
+                                <li><code>white</code> - Blanco</li>
+                            </ul>
+                        </li>
+                        <li><strong>Código hexadecimal:</strong> Representa colores usando un código de 6 dígitos precedido por <code>#</code>. Ejemplos:
+                            <ul>
+                                <li><code>#FF5733</code> - Un tono de naranja</li>
+                                <li><code>#00FF00</code> - Verde puro</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valores RGB:</strong> Especifica colores usando tres valores numéricos para rojo, verde y azul en el formato <code>rgb(255, 0, 0)</code>. Ejemplos:
+                            <ul>
+                                <li><code>rgb(255, 0, 0)</code> - Rojo puro</li>
+                                <li><code>rgb(0, 255, 0)</code> - Verde puro</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valores RGBA:</strong> Similar a RGB pero con un valor adicional para la opacidad (alpha), en el formato <code>rgba(255, 0, 0, 0.5)</code>. Ejemplos:
+                            <ul>
+                                <li><code>rgba(255, 0, 0, 0.5)</code> - Rojo con 50% de opacidad</li>
+                                <li><code>rgba(0, 255, 0, 0.75)</code> - Verde con 75% de opacidad</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valores HSL:</strong> Representa colores usando tono, saturación y luminosidad en el formato <code>hsl(120, 100%, 50%)</code>. Ejemplos:
+                            <ul>
+                                <li><code>hsl(120, 100%, 50%)</code> - Verde puro</li>
+                                <li><code>hsl(240, 100%, 50%)</code> - Azul puro</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valores HSLA:</strong> Similar a HSL pero con un valor adicional para la opacidad, en el formato <code>hsla(120, 100%, 50%, 0.5)</code>. Ejemplos:
+                            <ul>
+                                <li><code>hsla(120, 100%, 50%, 0.5)</code> - Verde con 50% de opacidad</li>
+                                <li><code>hsla(240, 100%, 50%, 0.75)</code> - Azul con 75% de opacidad</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+                    <div>
+                        <img src="img/estilos/bgc.PNG" alt="" width="700px" height="50px">
+                        <img src="img/estilos/bge.PNG" alt="" width="350px" height="80px">
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+ 
+
+            <div class="carta" id="et3">
+                <h2 class="titCarta">Atributo font-size</h2>
+                <div class="cotenedor2m">
+                    <p class="eti">
+                        font-size
+                    </p>
+                    <p class="etiExplica">
+                        La propiedad <code>font-size</code> en CSS se utiliza para especificar el tamaño de la fuente del texto de un elemento HTML. Permite ajustar el tamaño del texto dentro del elemento al que se aplique.
+                        <br><br>
+                        La propiedad <code>font-size</code> define el tamaño de la fuente en el contenido de un elemento HTML. Puede afectar a etiquetas como "p", "h1", "div", y cualquier otro elemento que contenga texto. Además, se puede usar para ajustar el tamaño de texto en pseudo-elementos como <code>::before</code> y <code>::after</code>.
+                    </p>
+                </div>
+            
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>Tamaño en píxeles (px):</strong> Define el tamaño de la fuente en píxeles. Ejemplos:
+                            <ul>
+                                <li><code>font-size: 16px;</code> - Tamaño de fuente de 16 píxeles</li>
+                                <li><code>font-size: 24px;</code> - Tamaño de fuente de 24 píxeles</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tamaño en em:</strong> Define el tamaño de la fuente en relación al tamaño de la fuente del elemento padre. Ejemplos:
+                            <ul>
+                                <li><code>font-size: 1em;</code> - Tamaño de fuente igual al tamaño del elemento padre</li>
+                                <li><code>font-size: 1.5em;</code> - Tamaño de fuente 1.5 veces el tamaño del elemento padre</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tamaño en rem:</strong> Define el tamaño de la fuente en relación al tamaño de la fuente raíz (generalmente el tamaño de la fuente del elemento <code>html</code>). Ejemplos:
+                            <ul>
+                                <li><code>font-size: 1rem;</code> - Tamaño de fuente igual al tamaño de la fuente raíz</li>
+                                <li><code>font-size: 2rem;</code> - Tamaño de fuente 2 veces el tamaño de la fuente raíz</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tamaño en porcentaje (%):</strong> Define el tamaño de la fuente en porcentaje del tamaño de la fuente del elemento padre. Ejemplos:
+                            <ul>
+                                <li><code>font-size: 100%;</code> - Tamaño de fuente igual al tamaño del elemento padre</li>
+                                <li><code>font-size: 150%;</code> - Tamaño de fuente 1.5 veces el tamaño del elemento padre</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tamaño en puntos (pt):</strong> Define el tamaño de la fuente en puntos. Ejemplos:
+                            <ul>
+                                <li><code>font-size: 12pt;</code> - Tamaño de fuente de 12 puntos</li>
+                                <li><code>font-size: 18pt;</code> - Tamaño de fuente de 18 puntos</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+                    <div>
+                        <img src="img/estilos/fzc.PNG" alt="" width="700px" height="100px">
+                        <img src="img/estilos/fze.PNG" alt="" width="300px" height="100px">
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+            <div class="carta" id="et4">
+                <h2 class="titCarta">Atributo margin</h2>
+                <div class="cotenedor2m">
+                    <p class="eti">
+                        margin
+                    </p>
+                    <p class="etiExplica">
+                        La propiedad <code>margin</code> en CSS se utiliza para especificar el espacio exterior (margen) alrededor de un elemento HTML. Controla la separación entre el elemento y otros elementos adyacentes en la página.
+                        <br><br>
+                        La propiedad <code>margin</code> define los márgenes de un elemento y puede aplicar márgenes uniformes en los cuatro lados o márgenes específicos para cada lado: superior, inferior, izquierdo y derecho. También puede aceptar valores en píxeles, porcentajes, o unidades relativas como em/rem.
+                    </p>
+                </div>
+            
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>Valor único:</strong> Aplica el mismo margen a los cuatro lados del elemento. Ejemplo:
+                            <ul>
+                                <li><code>margin: 20px;</code> - Aplica un margen de 20 píxeles en todos los lados</li>
+                            </ul>
+                        </li>
+                        <li><strong>Cuatro valores:</strong> Especifica márgenes diferentes para cada lado en el orden: superior, derecho, inferior, izquierdo. Ejemplo:
+                            <ul>
+                                <li><code>margin: 10px 20px 30px 40px;</code> - Aplica 10px arriba, 20px a la derecha, 30px abajo y 40px a la izquierda</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tres valores:</strong> El primer valor es para el margen superior, el segundo para los márgenes derecho e izquierdo, y el tercero para el margen inferior. Ejemplo:
+                            <ul>
+                                <li><code>margin: 10px 20px 30px;</code> - Aplica 10px arriba, 20px a los lados y 30px abajo</li>
+                            </ul>
+                        </li>
+                        <li><strong>Dos valores:</strong> El primer valor es para los márgenes superior e inferior, y el segundo para los márgenes derecho e izquierdo. Ejemplo:
+                            <ul>
+                                <li><code>margin: 10px 20px;</code> - Aplica 10px arriba y abajo, y 20px a los lados</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valor auto:</strong> Puede utilizarse para centrar un elemento horizontalmente dentro de su contenedor. Ejemplo:
+                            <ul>
+                                <li><code>margin: 0 auto;</code> - Aplica 0 de margen arriba y abajo, y centra el elemento horizontalmente</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valores negativos:</strong> Se pueden aplicar márgenes negativos para solapar elementos. Ejemplo:
+                            <ul>
+                                <li><code>margin: -10px;</code> - Aplica un margen negativo de 10 píxeles, lo que hace que el elemento se superponga a otros</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+                    <div>
+                        <img src="img/estilos/marginc.PNG" alt="" width="700px" height="100px">
+                        <img src="img/estilos/margine.PNG" alt="" width="250px" height="100px">
+                    </div>
+                </div>
+            </div>
+            
+            <br><br>
+
+
+            <div class="carta" id="et5">
+                <h2 class="titCarta">Atributo padding</h2>
+                <div class="cotenedor2m">
+                    <p class="eti">
+                        Padding
+                    </p>
+                    <p class="etiExplica">
+                        La propiedad <code>padding</code> en CSS se utiliza para especificar el espacio interior (relleno) entre el contenido de un elemento y su borde. Controla la cantidad de espacio entre el borde del elemento y su contenido, afectando directamente al área visible dentro del elemento.
+                        <br><br>
+                        La propiedad <code>padding</code> define el relleno de un elemento y puede aplicar valores uniformes en los cuatro lados o especificar valores para cada lado: superior, inferior, izquierdo y derecho. Acepta valores en unidades como píxeles, porcentajes, o unidades relativas como em/rem.
+                    </p>
+                </div>
+            
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>Valor único:</strong> Aplica el mismo relleno a los cuatro lados del elemento. Ejemplo:
+                            <ul>
+                                <li><code>padding: 20px;</code> - Aplica un relleno de 20 píxeles en todos los lados</li>
+                            </ul>
+                        </li>
+                        <li><strong>Cuatro valores:</strong> Especifica rellenos diferentes para cada lado en el orden: superior, derecho, inferior, izquierdo. Ejemplo:
+                            <ul>
+                                <li><code>padding: 10px 20px 30px 40px;</code> - Aplica 10px arriba, 20px a la derecha, 30px abajo y 40px a la izquierda</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tres valores:</strong> El primer valor es para el relleno superior, el segundo para los rellenos derecho e izquierdo, y el tercero para el relleno inferior. Ejemplo:
+                            <ul>
+                                <li><code>padding: 10px 20px 30px;</code> - Aplica 10px arriba, 20px a los lados y 30px abajo</li>
+                            </ul>
+                        </li>
+                        <li><strong>Dos valores:</strong> El primer valor es para los rellenos superior e inferior, y el segundo para los rellenos derecho e izquierdo. Ejemplo:
+                            <ul>
+                                <li><code>padding: 10px 20px;</code> - Aplica 10px arriba y abajo, y 20px a los lados</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valores en porcentaje (%):</strong> El relleno se puede definir en porcentaje del ancho del elemento padre. Ejemplo:
+                            <ul>
+                                <li><code>padding: 5%;</code> - Aplica un relleno del 5% del ancho del contenedor</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+                    <div>
+                        <img src="img/estilos/paddingc.PNG" alt="" width="700px" height="120px">
+                        <img src="img/estilos/paddinge.PNG" alt="" width="270px" height="120px">
+                    </div>
+                </div>
+            </div>
+            
+
+            <br><br>
+            <div class="carta" id="et6">
+                <h2 class="titCarta">Atributo border</h2>
+                <div class="cotenedor2m">
+                    <p class="eti">
+                        border
+                    </p>
+                    <p class="etiExplica">
+                        La propiedad <code>border</code> en CSS se utiliza para definir el borde alrededor de un elemento HTML. Esta propiedad permite especificar el estilo, el grosor y el color del borde que rodea el contenido y el relleno de un elemento.
+                        <br><br>
+                        La propiedad <code>border</code> combina tres aspectos principales: el grosor (width), el estilo (style) y el color (color) del borde. Puede aplicarse de forma global para todos los lados del elemento o individualmente para cada lado (superior, inferior, izquierdo y derecho).
+                    </p>
+                </div>
+
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>Grosor del borde:</strong> Define el grosor del borde. Puede ser en píxeles, ems o palabras clave predefinidas como <code>thin</code>, <code>medium</code>, o <code>thick</code>. Ejemplo:
+                            <ul>
+                                <li><code>border: 2px solid black;</code> - Borde de 2 píxeles de grosor, sólido, color negro</li>
+                            </ul>
+                        </li>
+                        <li><strong>Estilo del borde:</strong> Especifica el estilo del borde. Valores comunes incluyen:
+                            <ul>
+                                <li><code>solid</code> - Un borde sólido</li>
+                                <li><code>dashed</code> - Un borde discontinuo</li>
+                                <li><code>dotted</code> - Un borde punteado</li>
+                                <li><code>double</code> - Un borde doble</li>
+                                <li><code>none</code> - Sin borde</li>
+                            </ul>
+                        </li>
+                        <li><strong>Color del borde:</strong> Define el color del borde. Puede ser cualquier valor de color aceptado por CSS. Ejemplo:
+                            <ul>
+                                <li><code>border: 2px solid red;</code> - Borde rojo de 2 píxeles de grosor</li>
+                            </ul>
+                        </li>
+                        <li><strong>Border shorthand:</strong> La propiedad <code>border</code> permite combinar grosor, estilo y color en una sola línea. Ejemplo:
+                            <ul>
+                                <li><code>border: 1px dashed blue;</code> - Borde azul, discontinuo, de 1 píxel de grosor</li>
+                            </ul>
+                        </li>
+                        <li><strong>Bordes específicos:</strong> Puedes definir bordes para lados específicos del elemento:
+                            <ul>
+                                <li><code>border-top</code>, <code>border-right</code>, <code>border-bottom</code>, <code>border-left</code> - Define el borde en un lado específico</li>
+                                <li><code>border-left: 3px solid green;</code> - Borde izquierdo de 3 píxeles, sólido, color verde</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+                    <div>
+                        <img src="img/estilos/borderc.PNG" alt="" width="800px" height="400px">
+                        <img src="img/estilos/bordere.PNG" alt="" width="800px" height="400px">
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+            <div class="carta" id="et7">
+                <h2 class="titCarta">Atributo width</h2>
+                <div class="cotenedor2m">
+                    <p class="eti">
+                        width
+                    </p>
+                    <p class="etiExplica">
+                        La propiedad <code>width</code> en CSS se utiliza para especificar el ancho de un elemento. Esta propiedad controla la anchura del área de contenido de un elemento, excluyendo los márgenes, rellenos y bordes.
+                        <br><br>
+                        La propiedad <code>width</code> define el ancho de un elemento y puede aceptar valores absolutos (como píxeles) o relativos (como porcentajes). Se puede aplicar a casi cualquier elemento HTML que tenga dimensiones definibles, como contenedores (<code>div</code>, <code>section</code>, <code>aside</code>, etc.).
+                    </p>
+                </div>
+            
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>Valor en píxeles:</strong> Define el ancho en píxeles. Ejemplo:
+                            <ul>
+                                <li><code>width: 300px;</code> - El ancho del elemento será de 300 píxeles</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valor en porcentaje:</strong> Define el ancho en relación con el ancho del elemento contenedor. Ejemplo:
+                            <ul>
+                                <li><code>width: 50%;</code> - El ancho del elemento será el 50% del contenedor padre</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valores automáticos:</strong> Deja que el navegador calcule automáticamente el ancho del elemento. Ejemplo:
+                            <ul>
+                                <li><code>width: auto;</code> - El ancho será determinado automáticamente por el contenido y el entorno del elemento</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valores mínimos y máximos:</strong> Puedes usar las propiedades <code>min-width</code> y <code>max-width</code> para limitar el tamaño mínimo o máximo que puede tener un elemento:
+                            <ul>
+                                <li><code>min-width: 200px;</code> - El ancho mínimo será de 200 píxeles</li>
+                                <li><code>max-width: 600px;</code> - El ancho máximo será de 600 píxeles</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+                    <div>
+                        <img src="img/estilos/widthc.PNG" alt="" width="700px" height="300px">
+                        <img src="img/estilos/widthe.PNG" alt="" width="600px" height="100px">
+                    </div>
+                </div>
+            </div>
+            
+            <br><br>
+            <div class="carta" id="et8">
+                <h2 class="titCarta">Atributo height</h2>
+                <div class="cotenedor2m">
+                    <p class="eti">
+                        height
+                    </p>
+                    <p class="etiExplica">
+                        La propiedad <code>height</code> en CSS se utiliza para especificar la altura de un elemento. Esta propiedad controla la altura del área de contenido de un elemento, excluyendo los márgenes, rellenos y bordes.
+                        <br><br>
+                        La propiedad <code>height</code> define la altura de un elemento y puede aceptar valores absolutos (como píxeles) o relativos (como porcentajes). Al igual que <code>width</code>, se puede aplicar a cualquier elemento HTML con dimensiones, como cajas de contenedores (<code>div</code>, <code>section</code>, etc.).
+                    </p>
+                </div>
+            
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>Valor en píxeles:</strong> Define la altura en píxeles. Ejemplo:
+                            <ul>
+                                <li><code>height: 200px;</code> - La altura del elemento será de 200 píxeles</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valor en porcentaje:</strong> Define la altura en relación con el alto del elemento contenedor. Ejemplo:
+                            <ul>
+                                <li><code>height: 75%;</code> - La altura del elemento será el 75% del contenedor padre</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valores automáticos:</strong> Permite que el navegador ajuste automáticamente la altura del elemento según su contenido. Ejemplo:
+                            <ul>
+                                <li><code>height: auto;</code> - La altura será ajustada automáticamente</li>
+                            </ul>
+                        </li>
+                        <li><strong>Valores mínimos y máximos:</strong> Puedes usar <code>min-height</code> y <code>max-height</code> para establecer límites en la altura:
+                            <ul>
+                                <li><code>min-height: 100px;</code> - La altura mínima será de 100 píxeles</li>
+                                <li><code>max-height: 500px;</code> - La altura máxima será de 500 píxeles</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+                    <div>
+                        <img src="img/estilos/heightc.PNG" alt="" width="750px" height="170px">
+                        <img src="img/estilos/heighte.PNG" alt="" width="300px" height="100px">
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="carta" id="et9">
+                <h2 class="titCarta">Atributo text-align</h2>
+                <div class="cotenedor2m">
+                    <p class="eti">
+                        Text-align
+                    </p>
+                    <p class="etiExplica">
+                        La propiedad <code>text-align</code> en CSS se utiliza para especificar la alineación horizontal del texto dentro de un elemento. Controla cómo se alinean las líneas de texto y los elementos en línea dentro de un contenedor.
+                        <br><br>
+                        La propiedad <code>text-align</code> se puede aplicar a cualquier contenedor de bloque, como un <code>div</code>, <code>section</code>, o <code>p</code>. Afecta principalmente a elementos de texto y también puede influir en otros elementos en línea como imágenes o enlaces.
+                    </p>
+                </div>
+            
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>left:</strong> Alinea el texto a la izquierda del contenedor. Ejemplo:
+                            <ul>
+                                <li><code>text-align: left;</code> - El texto estará alineado a la izquierda</li>
+                            </ul>
+                        </li>
+                        <li><strong>right:</strong> Alinea el texto a la derecha del contenedor. Ejemplo:
+                            <ul>
+                                <li><code>text-align: right;</code> - El texto estará alineado a la derecha</li>
+                            </ul>
+                        </li>
+                        <li><strong>center:</strong> Centra el texto dentro del contenedor. Ejemplo:
+                            <ul>
+                                <li><code>text-align: center;</code> - El texto estará centrado</li>
+                            </ul>
+                        </li>
+                        <li><strong>justify:</strong> Justifica el texto, distribuyendo el espacio entre palabras para que las líneas tengan la misma longitud. Ejemplo:
+                            <ul>
+                                <li><code>text-align: justify;</code> - El texto estará justificado</li>
+                            </ul>
+                        </li>
+                        <li><strong>start:</strong> Alinea el texto al comienzo según la dirección del texto. Ejemplo:
+                            <ul>
+                                <li><code>text-align: start;</code> - Alinea el texto al inicio según la dirección (izquierda para idiomas como el español e inglés)</li>
+                            </ul>
+                        </li>
+                        <li><strong>end:</strong> Alinea el texto al final según la dirección del texto. Ejemplo:
+                            <ul>
+                                <li><code>text-align: end;</code> - Alinea el texto al final según la dirección (derecha para idiomas como el español e inglés)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+                    <div>
+                        <img src="img/estilos/text-alignc.PNG" alt="" width="800px" height="400px">
+                        <img src="img/estilos/text-aligne.PNG" alt="" width="800px" height="400px">
+                    </div>
+                </div>
+            </div>
+            
+            <br><br>
+
+            <br><br>
+            
+
+            <div class="carta" id="et10">
+                <h2 class="titCarta">Atributo display</h2>
+                <div class="cotenedor2m">
+                    <p class="eti">
+                        &lt;div&gt; &lt;/div&gt;
+                    </p>
+                    <p class="etiExplica">
+                        La propiedad <code>display</code> en CSS determina cómo se va a mostrar un elemento en la página. Controla si el elemento se comporta como un bloque, un elemento en línea, o si debe ocultarse del diseño visual sin eliminarse del árbol del DOM.
+                        <br><br>
+                        Esta propiedad es fundamental para manipular la estructura de una página, ya que puede cambiar completamente el flujo de elementos en el diseño. Se aplica a casi cualquier elemento HTML y se usa ampliamente en diseños de página web.
+                    </p>
+                </div>
+            
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>block:</strong> Hace que el elemento se comporte como un bloque. Ocupa todo el ancho disponible y se coloca en una nueva línea. Ejemplo:
+                            <ul>
+                                <li><code>display: block;</code> - El elemento será un bloque</li>
+                            </ul>
+                        </li>
+                        <li><strong>inline:</strong> Hace que el elemento se comporte como un elemento en línea. No inicia una nueva línea y solo ocupa el espacio necesario. Ejemplo:
+                            <ul>
+                                <li><code>display: inline;</code> - El elemento será en línea</li>
+                            </ul>
+                        </li>
+                        <li><strong>inline-block:</strong> Combina características de elementos en línea y de bloque. Permite definir el ancho y alto pero no inicia una nueva línea. Ejemplo:
+                            <ul>
+                                <li><code>display: inline-block;</code> - El elemento será en línea pero con las propiedades de un bloque</li>
+                            </ul>
+                        </li>
+                        <li><strong>none:</strong> Oculta completamente el elemento. No será visible y no ocupará espacio en el diseño. Ejemplo:
+                            <ul>
+                                <li><code>display: none;</code> - El elemento no aparecerá en el documento</li>
+                            </ul>
+                        </li>
+                        <li><strong>flex:</strong> Aplica un contenedor flexible que ajusta el contenido para optimizar el espacio dentro del contenedor. Ejemplo:
+                            <ul>
+                                <li><code>display: flex;</code> - El contenedor se convertirá en un contenedor flexible</li>
+                            </ul>
+                        </li>
+                        <li><strong>grid:</strong> Crea un contenedor de cuadrícula que permite organizar elementos en filas y columnas. Ejemplo:
+                            <ul>
+                                <li><code>display: grid;</code> - El contenedor se organizará en una cuadrícula</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+                    <div>
+                        <img src="img/estilos/displayc.PNG" alt="" width="800px" height="400px">
+                        <img src="img/estilos/displaye.PNG" alt="" width="800px" height="400px">
+                    </div>
+                </div>
+            </div>
+                                   
+
+
+        </div>
+
+    </div>
+
+
+</body>
+<footer>
+    <div id="contenedor">
+        <div id="cont60">
+            <h2>Instituto Tecnológico de Chilpancingo</h2>
+            <p>Somos estudiantes de la carrera de ingeniería en Sistemas computacionales cursando la asignatura de programación web</p>
+        </div>
+        <div class="cont20">
+            <h2>Contacto</h2>
+            <p>l21520390@chilpancingo.tecnm.mx</p>
+            <p>l21520479@chilpancingo.tecnm.mx</p>
+        </div>
+        <div class="cont20b">
+            <h2>Elaborado por</h2>
+            <p>
+                Mejía López Carlos Abel <br>
+                Pelaez Zacapala Karla Getsemaní
+            </p>
+        </div>                        
+
+    </div>
+</footer>
+</html>
