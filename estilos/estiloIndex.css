@@ -1,0 +1,281 @@
+body{
+    /* background-color: rgb(151, 151, 243); */
+    background: linear-gradient(to bottom,rgb(164, 222, 255), rgb(94, 158, 196), rgb(61, 83, 131));
+}
+
+#arriba{
+    display: flex;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.867), rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0));
+    color: azure;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 25%;
+
+
+}
+#nave ul{
+    display: flex;
+    list-style: none;
+    padding: 1%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 1%;  
+
+}
+#nave ul li{
+    
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+
+#tit{
+    padding-left: 3%;
+    white-space: nowrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 80px;
+
+}
+#cabeza{
+
+    flex: 1;
+    display: flex;
+
+}
+#nave{
+    padding-top: 0.5%;
+    margin-right: 20px;
+
+}
+#secCambiante{
+    margin-top: 13%;
+    display: flex; 
+    /* justify-content: center; */
+    width: 100%;
+    margin-left: 2%;
+
+}
+#masInfo{
+    margin-right: 2%;
+    background-color: rgb(231, 233, 0235); 
+    width: 20%; 
+    text-align: center;   
+    padding: 1%; 
+    border-radius: 10px; 
+
+}
+#contenido{
+    padding: 1%;
+    width: 70%;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px; 
+}
+.cotenedor2m{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+    
+
+}
+.cotenedor2m div{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.cotenedor2m ol li{
+    margin-bottom: 4px;
+
+}
+.cotenedor2m h4{
+    text-align: center;
+}
+#tablaContenido{
+    background-color: rgb(222, 222, 222);
+    padding: 1%;
+}
+p{
+    /* padding: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.imga{
+    width: 450px;
+    
+    
+}
+img{
+   
+    height: auto; 
+    object-fit: cover;
+
+}
+
+
+
+#nave ul li a{
+    text-decoration: none;
+    color: white;
+
+
+}
+#nave ul li:hover{
+    background-color: gray;
+    
+
+}
+#masInfo ul li a{
+    text-decoration: underline;
+    color: rgb(129, 26, 26);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#masInfo ul li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.eti{
+    background-color: rgb(186, 186, 186);
+    color: brown;
+    font-size: 20px;
+    font-family: fantasy;
+    white-space: nowrap;
+    padding-top: 1%;
+
+    font-weight: bold;
+    padding-bottom: 0px;
+    
+    height: 32px;
+}
+.etiExplica{
+    padding-left: 3%;
+}
+.titCarta{
+    margin-bottom: -1%;
+
+}
+.carta{
+    background-color: rgb(255, 247, 235);
+    padding: 10px;
+    border-radius: 10px; 
+    border: 2px dotted rgb(200, 139, 139);
+    margin-bottom: 20px;
+}
+
+#tit h1 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#secCambiante h3, h2{
+    color: rgb(67, 17, 17);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#secCambiante p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+
+}
+
+#secCambiante ol li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#secCambiante h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+
+}
+
+.atributos ul li{
+    padding-bottom: 3px;
+
+}
+hr{
+    margin-bottom: 40px;
+}
+.cajaInstalacion{
+    padding: 18px;
+    background-color: rgb(241, 241, 241);
+    
+
+    
+    border-radius: 10px; 
+    border: 3px solid rgb(57, 14, 14);    
+
+}
+.cajaInstalacion ol li{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 12px;
+    text-align: justify;
+    font-size: 17px;
+}
+.imgContainer img{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.cajaEjem{
+    padding: 12px;
+    background-color: rgb(255, 218, 218);
+    width: 90%;
+    border-radius: 10px; 
+    border: 3px solid rgb(57, 14, 14);    
+
+
+}
+.titEjem{
+    background-color:  rgb(113, 43, 43);
+    text-align: center;
+    padding: 1px;
+    border-radius: 6px;
+    
+}
+.titEjem h2{
+    color: white;
+
+}
+.ejemD{
+    margin-left: 30px;
+}
+.cajaEjem hr{
+    margin-bottom: 2px;
+    border: 0.5px solid rgba(101, 0, 0, 0.248);
+
+}
+
+#contenedor{
+    background-color: rgb(220, 220, 220);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#cont60{
+    width: 40%;
+}
+
+.cont20{
+    width: 30%;
+    padding-left: 150px;
+}
+.cont20b{
+    width: 30%;
+    padding-left: 50px;
+}
