@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas para formularios</title>
+    <link rel="stylesheet" href="estilos/estiloIndex.css">
+    
+</head>
+<body>
+    <header id="arriba">
+
+        <div id="cabeza">
+            <div id="tit">
+                <h1><a href="index.html">Atlantic HTML</a></h1>
+            </div>
+        </div>
+        <nav id="nave">
+            <ul>
+                <!-- Parte Getsemaní -->
+                <!-- <li>Etiquetas iniciales</li> -->
+                <li><a href="etEst.html">Etiquetas de estructura</a></li>
+                <!-- <li>Etiquetas de metadatos</li> -->
+                <li><a href="etAgru.html">Etiquetas de agrupación</a></li>
+                <!-- Parte Abel -->
+                <li><a href="etTexto.html">Etiquetas de texto</a></li>
+                <!-- <li>Etiquetas multimedia</li> -->
+                <li><a href="etTablas.html">Etiquetas de tablas</a></li>
+                <!-- <li>Formularios <br>-</li> -->
+                <li><a href="etForms.html">Etiquetas de formulario</a></li>
+
+                <li><a href="etEstilos.html">Hojas de Estilos y atributos</a></li> 
+                
+                <li><a href="etFrame.html">Frameworks - Materialize web</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div id="secCambiante">
+
+        <aside id="masInfo">
+            <div>
+                <h3>Índice de todas las etiquetas</h3>
+                <ul>
+                    <!-- Parte Getsemaní -->
+
+                    <li><a href="etEst.html">Etiquetas de estructura</a></li>
+                        <ul>
+                            <li>&lt;body&gt;</li>
+                            <li>&lt;nav&gt;</li>
+                            <li>&lt;main&gt;</li>
+                            <li>&lt;section&gt;</li>
+                            <li>&lt;article&gt;</li>
+                            <li>&lt;aside&gt;</li>
+                            <li>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</li>
+                            <li>&lt;header&gt;</li>
+                            <li>&lt;footer&gt;</li>
+                        </ul>
+                        
+
+                        
+
+                    </li>
+                    <br>
+
+
+                    <li><a href="etAgru.html">Etiquetas de agrupación</a></li>
+                    <ul>
+                        <li>&lt;p&gt;</li>
+                        <li>&lt;hr&gt;</li>
+                        <li>&lt;pre&gt;</li>
+                        <li>&lt;blockquote&gt;</li>
+                        <li>&lt;ol&gt;</li>
+                        <li>&lt;ul&gt;</li>
+                        <li>&lt;li&gt;</li>
+                        <li>&lt;dl&gt;</li>
+                        <li>&lt;dt&gt;</li>
+                        <li>&lt;dd&gt;</li>
+                        <li>&lt;figure&gt;</li>
+                        <li>&lt;figcaption&gt;</li>
+                        <li>&lt;div&gt;</li>
+                    </ul>
+                    <br>
+                    <!-- Parte Abel -->
+                    <li> <a href="etTexto.html">Etiquetas de texto</a>
+
+                        <ul>
+                            <li>&lt;a&gt;</li>
+                            <li>&lt;strong&gt;</li>
+                            <li>&lt;small&gt;</li>
+                            <li>&lt;cite&gt;</li>
+                            <li>&lt;sub&gt; y &lt;sup&gt;</li>
+                            <li>&lt;mark&gt;</li>
+                            <li>&lt;span&gt;</li>
+                            <li>&lt;br&gt;</li>
+                        </ul>
+                        
+                    </li>
+                    <br>
+
+
+                    <li><a href="etTablas.html">Etiquetas de tablas</a>
+                        <ul>
+                            <li>&lt;table&gt;</li>
+                            <li>&lt;caption&gt;</li>
+                            <li>&lt;colgroup&gt;</li>
+                            <li>&lt;tbody&gt;</li>
+                            <li>&lt;thead&gt;</li>
+                            <li>&lt;tfoot&gt;</li>
+                            <li>&lt;tr&gt;</li>
+                            <li>&lt;td&gt;</li>
+                            <li>&lt;th&gt;</li>
+                        </ul>
+                        
+
+                    </li>
+                    <br>
+                    <li><a href="etForms.html">Etiquetas de formularios</a>
+                        <ul>
+                            <li>&lt;form&gt;</li>
+                            <li>&lt;legend&gt;</li>
+                            <li>&lt;label&gt;</li>
+                            <li>&lt;input&gt;</li>
+                            <li>&lt;button&gt;</li>
+                            <li>&lt;select&gt;</li>
+                            <li>&lt;option&gt;</li>
+                            <li>&lt;textarea&gt;</li>
+                            
+                        </ul>
+                        
+
+                    </li>
+                    <br>   
+                    <li><a href="etFrame.html">Framework Materialize web</a>
+                        <ul>
+                            <li>Badges</li>
+                            <li>Buttons</li>
+                            <li>Breadcrumbs</li>
+                            <li>Cards</li>
+                            <li>Collections</li>
+                            <li>Floating action button</li>
+                            <li>Footer</li>
+                            
+                            <li>Navbar</li>
+                            <li>Pagination</li>
+                            <li>Preloader</li>
+
+                            
+                        </ul>
+                        
+
+                    </li>    
+                    <br>
+                </ul>
+
+            </div>            
+        </aside>
+        
+        <div id="contenido">
+           <h2>Etiquetas para la creación de formularios (solo formato, no envío de datos)</h2>
+           <hr>
+            <p>
+                Los formularios en HTML son la principal manera de recopilar información de los usuarios. La etiqueta &lt;form&gt; &lt;/form&gt; es el contenedor básico de un formulario, dentro del cual se agrupan todas las etiquetas que permiten la interacción del usuario, como campos de texto, botones y opciones de selección.
+            </p>
+            <p>
+                Estas etiquetas son esenciales para crear formularios funcionales y accesibles, que permitan a los usuarios interactuar de manera efectiva con una página web.                
+            </p>
+           <!-- Tabla de contenidos -->
+            <div class="cotenedor2m">
+                <div id="tablaContenido" style="width: 40%;">
+                    <h4>Índice de contenidos</h4>
+                    <ol>
+                        <li><a href="#fr1">&lt;form&gt;</a></li>
+                        <li><a href="#fr2">&lt;legend&gt;</a></li>
+                        <li><a href="#fr3">&lt;label&gt;</a></li>
+                        <li><a href="#fr4">&lt;input&gt;</a></li>
+                        <li><a href="#fr5">&lt;button&gt;</a></li>
+                        <li><a href="#fr6">&lt;select&gt;</a></li>
+                        <li><a href="#fr7">&lt;option&gt;</a></li>
+                        <li><a href="#fr8">&lt;textarea&gt;</a></li>
+                        
+                    </ol>
+                </div>
+                <div>
+                    <img src="img/forms/fImg.png" alt="" width="300px" height="200px">
+                </div>
+            </div>
+
+
+            <br><br>
+            <hr>
+           <!-- Formato de disposición para cada etiqueta y así explicar su información -->
+            <div class="carta" id="fr1">
+                <h2 class="titCarta">Etiqueta  &lt;form&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;form&gt; &lt;/form&gt;
+                        </p>
+                        <p class="etiExplica">
+                            Esta es la etiqueta de apertura y cierre de un formulario en HTML. Todo el contenido del formulario, incluyendo campos de entrada, botones y otros elementos interactivos, debe estar contenido dentro de estas etiquetas.
+                            <br><br>Se utiliza para definir un formulario en la página web y especificar cómo y dónde se enviarán los datos del formulario, a través de atributos como action (la URL a la que se envían los datos) y method (el método de envío, como GET o POST).                        
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>action:</strong> Define la URL a la que se envían los datos del formulario cuando el usuario lo envía.</li>
+                        <li><strong>method:</strong> Especifica el método HTTP que se utiliza al enviar los datos del formulario. Los valores comunes son GET y POST.</li>
+                        <li><strong>enctype:</strong> Define el tipo de codificación de los datos cuando se envían al servidor. Los valores comunes son <code>application/x-www-form-urlencoded</code>, <code>multipart/form-data</code>, y <code>text/plain</code>.</li>
+                        <li><strong>target:</strong> Indica dónde se muestra la respuesta que se recibe después de enviar el formulario. Los valores pueden ser:
+                            <ul>
+                                <li><strong>_self:</strong> Muestra la respuesta en la misma ventana o pestaña.</li>
+                                <li><strong>_blank:</strong> Muestra la respuesta en una nueva ventana o pestaña.</li>
+                                <li><strong>_parent:</strong> Muestra la respuesta en el marco padre del formulario.</li>
+                                <li><strong>_top:</strong> Muestra la respuesta en la ventana o pestaña completa.</li>
+                                <li><strong>nombre de un iframe:</strong> Muestra la respuesta en un iframe específico dentro de la página.</li>
+                            </ul>
+                        </li>
+                        <li><strong>autocomplete:</strong> Indica si el navegador debe completar automáticamente los valores del formulario. Puede ser <code>on</code> o <code>off</code>.</li>
+                        <li><strong>novalidate:</strong> Si está presente, indica que el formulario no debe ser validado al enviarse.</li>
+                        <li><strong>name:</strong> Asigna un nombre al formulario, que puede ser utilizado en scripts o estilos CSS.</li>
+                        <li><strong>rel:</strong> Define la relación entre el documento actual y la URL especificada en el atributo <code>action</code>. Común en formularios que usan <code>target="_blank"</code>.</li>
+                        <li><strong>accept-charset:</strong> Especifica el conjunto de caracteres que el servidor acepta para el formulario. Ejemplos: <code>UTF-8</code>, <code>ISO-8859-1</code>.</li>
+                        <li><strong>class:</strong> Asigna una o más clases al elemento, permitiendo aplicar estilos CSS específicos.</li>
+                        <li><strong>id:</strong> Asigna un identificador único al formulario, útil para referencia en CSS o JavaScript.</li>
+                        <li><strong>style:</strong> Permite aplicar estilos CSS en línea directamente al elemento.</li>
+                        <li><strong>title:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre el formulario.</li>
+                        <li><strong>lang:</strong> Especifica el idioma del contenido del elemento, ayudando a los navegadores y herramientas de accesibilidad a interpretar el texto correctamente.</li>
+                        <li><strong>dir:</strong> Define la dirección del texto dentro del elemento, que puede ser:
+                            <ul>
+                                <li><strong>ltr:</strong> De izquierda a derecha.</li>
+                                <li><strong>rtl:</strong> De derecha a izquierda.</li>
+                            </ul>
+                        </li>
+                        <li><strong>aria-*:</strong> Atributos ARIA (Accessible Rich Internet Applications) que mejoran la accesibilidad para usuarios con discapacidades. Ejemplos incluyen <code>aria-label</code>, <code>aria-labelledby</code>, <code>aria-describedby</code>, etc.</li>
+                    </ul>
+                    
+                                        
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/form.PNG" alt="" width="600px" height="400px">
+                        <img src="img/forms/forme.PNG" alt="" width="400px" height="150px">
+                    </div>
+                    <p>
+                      <br>  Línea 9: "form action="/submit-form": El atributo action especifica que los datos del formulario se enviarán a la URL /submit-form cuando el usuario lo envíe.
+                      <br>  Línea 10: method="POST": El atributo method define que el formulario enviará los datos usando el método POST, lo que es adecuado para enviar datos sensibles o grandes.
+                      <br>   Línea 11: enctype="multipart/form-data": El atributo enctype establece que los datos del formulario se codificarán como multipart/form-data, lo cual es necesario para cargar archivos.
+                      <br>   Línea 12: target="_blank": El atributo target indica que la respuesta del servidor se abrirá en una nueva pestaña o ventana del navegador.
+                      <br>  Línea 13: autocomplete="on": El atributo autocomplete permite que el navegador complete automáticamente los campos del formulario con valores previamente ingresados por el usuario.
+                      <br>  Línea 14: name="userForm": El atributo name asigna un nombre al formulario, lo que puede ser útil para referenciarlo en scripts o para identificarlo en los datos enviados.
+                      <br>  Línea 15: id="userForm": El atributo id asigna un identificador único al formulario, permitiendo referenciarlo en CSS o JavaScript.
+  
+                    </p>
+                </div>                
+
+            </div>            
+            <br><br>
+
+            <div class="carta" id="fr2">
+                <h2 class="titCarta">Etiqueta  &lt;legend&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;legend&gt; &lt;/legend&gt;
+                        </p>
+                        <p class="etiExplica">
+                            La etiqueta "legend" se utiliza en conjunto con "fieldset" para proporcionar un título o descripción a un grupo de elementos del formulario. Este título aparece dentro del recuadro creado por "fieldset", generalmente en la esquina superior izquierda.
+                            <br><br> Se coloca inmediatamente después de la apertura de "fieldset" para describir el propósito del grupo de elementos contenidos en él.                       
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>align:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Define la alineación del texto dentro del <code>&lt;legend&gt;</code>.</li>
+                                <li><strong>Valores posibles:</strong> <code>left</code>, <code>right</code>, <code>center</code>. (Nota: Este atributo está en desuso en HTML5; se recomienda usar CSS para la alineación.)</li>
+                            </ul>
+                        </li>
+                        <li><strong>class:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Permite asignar una o más clases al elemento para aplicar estilos CSS específicos.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier nombre de clase válido.</li>
+                            </ul>
+                        </li>
+                        <li><strong>id:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Proporciona un identificador único para el elemento, que puede ser utilizado en CSS o JavaScript para manipularlo o referenciarlo.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier valor de identificación único válido.</li>
+                            </ul>
+                        </li>
+                        <li><strong>style:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Permite aplicar estilos CSS en línea directamente al elemento.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier regla CSS válida.</li>
+                            </ul>
+                        </li>
+                        <li><strong>title:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre el elemento.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier texto.</li>
+                            </ul>
+                        </li>
+                        <li><strong>lang:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Especifica el idioma del contenido del elemento, ayudando a los navegadores y herramientas de accesibilidad a interpretar el texto correctamente.</li>
+                                <li><strong>Valores posibles:</strong> Códigos de idioma como <code>en</code>, <code>es</code>, <code>fr</code>, etc.</li>
+                            </ul>
+                        </li>
+                        <li><strong>dir:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Define la dirección del texto dentro del elemento, que puede ser "ltr" (de izquierda a derecha) o "rtl" (de derecha a izquierda).</li>
+                                <li><strong>Valores posibles:</strong> <code>ltr</code>, <code>rtl</code>, <code>auto</code>.</li>
+                            </ul>
+                        </li>
+                        <li><strong>aria-*:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Atributos ARIA (Accessible Rich Internet Applications) que mejoran la accesibilidad para usuarios con discapacidades.</li>
+                                <li><strong>Valores posibles:</strong> Dependiendo del atributo ARIA específico, como <code>aria-label</code>, <code>aria-labelledby</code>, <code>aria-describedby</code>, etc.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                                        
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/legend.PNG" alt="" width="700px" height="400px">
+                        <img src="img/forms/legende.PNG" alt="" width="700px" height="100px">
+                    </div>
+                    <p>
+                        Línea 11: "legend id="formLegend" class="form-legend" style="color: blue;""Información Personal"/legend"
+                        <br>	id="formLegend": Asigna un identificador único al elemento "legend", lo que permite referenciarlo en CSS o JavaScript.
+                        <br>	class="form-legend": Aplica una clase CSS llamada form-legend al elemento "legend", lo que permite aplicar estilos definidos en una hoja de estilos externa.
+                        <br>	style="color: blue;": Aplica un estilo en línea que establece el color del texto del "legend" a azul.
+                        <br>	Información Personal: Es el texto que se muestra como título de la sección del formulario, enmarcado dentro de la etiqueta "fieldset"
+                    </p>
+                </div>                
+
+            </div>            
+            <br><br>
+
+
+            <div class="carta" id="fr3">
+                <h2 class="titCarta">Etiqueta  &lt;label&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;label&gt; &lt;/label&gt;
+                        </p>
+                        <p class="etiExplica">
+                            La etiqueta "label" se utiliza para asociar un texto descriptivo con un control de formulario (como un campo de entrada o una casilla de verificación). Esto mejora la accesibilidad, ya que los usuarios pueden hacer clic en el texto del "label" para activar el control asociado.
+                            <br>Se usa junto con el atributo for que coincide con el id del control correspondiente, vinculando así el texto del "label" al control.
+                         </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>for:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Asocia la etiqueta <code>&lt;label&gt;</code> con un elemento de formulario, como un <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;select&gt;</code>, etc. El valor del atributo <code>for</code> debe coincidir con el valor del atributo <code>id</code> del elemento asociado.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier valor que coincida con un <code>id</code> de un elemento de formulario.</li>
+                            </ul>
+                        </li>
+                        <li><strong>form:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Especifica el <code>id</code> del formulario al que pertenece la etiqueta <code>&lt;label&gt;</code>. Este atributo se utiliza principalmente cuando la etiqueta <code>&lt;label&gt;</code> y su elemento de formulario asociado están fuera del elemento <code>&lt;form&gt;</code>.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier valor de <code>id</code> que corresponda a un formulario en el documento.</li>
+                            </ul>
+                        </li>
+                        <li><strong>class:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Permite asignar una o más clases al elemento para aplicar estilos CSS específicos.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier nombre de clase válido.</li>
+                            </ul>
+                        </li>
+                        <li><strong>id:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Proporciona un identificador único para el elemento <code>&lt;label&gt;</code>, que puede ser utilizado en CSS o JavaScript para manipularlo o referenciarlo.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier valor de identificación único válido.</li>
+                            </ul>
+                        </li>
+                        <li><strong>style:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Permite aplicar estilos CSS en línea directamente al elemento <code>&lt;label&gt;</code>.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier regla CSS válida.</li>
+                            </ul>
+                        </li>
+                        <li><strong>title:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre el elemento <code>&lt;label&gt;</code>.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier texto.</li>
+                            </ul>
+                        </li>
+                        <li><strong>lang:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Especifica el idioma del contenido del elemento <code>&lt;label&gt;</code>, ayudando a los navegadores y herramientas de accesibilidad a interpretar el texto correctamente.</li>
+                                <li><strong>Valores posibles:</strong> Códigos de idioma como <code>en</code>, <code>es</code>, <code>fr</code>, etc.</li>
+                            </ul>
+                        </li>
+                        <li><strong>dir:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Define la dirección del texto dentro del elemento <code>&lt;label&gt;</code>, que puede ser "ltr" (de izquierda a derecha) o "rtl" (de derecha a izquierda).</li>
+                                <li><strong>Valores posibles:</strong> <code>ltr</code>, <code>rtl</code>, <code>auto</code>.</li>
+                            </ul>
+                        </li>
+                        <li><strong>aria-*:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Atributos ARIA (Accessible Rich Internet Applications) que mejoran la accesibilidad para usuarios con discapacidades.</li>
+                                <li><strong>Valores posibles:</strong> Dependiendo del atributo ARIA específico, como <code>aria-label</code>, <code>aria-labelledby</code>, <code>aria-describedby</code>, etc.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                                                    
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/label.PNG" alt="" width="600px" height="400px">
+                        <img src="img/forms/labelPrueba.PNG" alt="" width="500px" height="170px">
+                    </div>
+
+                    <p>
+                        <br>  Línea 12: "label for="name""Nombre:"/label": for="name": Asocia la etiqueta "label" con el elemento de formulario cuyo id es name. Esto ayuda a mejorar la accesibilidad y permite que al hacer clic en el texto de la etiqueta, el cursor se enfoque en el campo de entrada correspondiente.
+                        <br> Línea 15: "label for="email""Correo electrónico:"/label": for="email": Asocia la etiqueta "label" con el elemento de formulario cuyo id es email.
+                        <br> Línea 18: "label for="password""Contraseña:"/label": for="password": Asocia la etiqueta "label" con el elemento de formulario cuyo id es password.                        
+                    
+                    </p>
+                </div>                
+                
+            </div>    
+            
+            <div class="carta" id="fr4">
+                <h2 class="titCarta">Etiqueta  &lt;input&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;input&gt;
+                        </p>
+                        <p class="etiExplica">
+                            Esta etiqueta es extremadamente versátil y se utiliza para crear una amplia variedad de campos de entrada en un formulario, como campos de texto, contraseñas, botones de radio, casillas de verificación, entre otros. Es una etiqueta auto-contenida, lo que significa que no requiere una etiqueta de cierre.
+                            <br>Se emplea con diferentes tipos especificados en el atributo type, como text, password, email, checkbox, radio, entre otros, para definir el tipo de campo de entrada.                        
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>type:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Especifica el tipo de control que se debe mostrar. Los valores pueden ser <code>text</code>, <code>password</code>, <code>submit</code>, <code>radio</code>, <code>checkbox</code>, <code>email</code>, <code>number</code>, <code>date</code>, etc.</li>
+                                <li><strong>Valores posibles:</strong> <code>text</code>, <code>password</code>, <code>submit</code>, <code>radio</code>, <code>checkbox</code>, <code>email</code>, <code>number</code>, <code>date</code>, <code>file</code>, <code>hidden</code>, <code>reset</code>, <code>search</code>, <code>tel</code>, <code>url</code>, etc.</li>
+                            </ul>
+                        </li>
+                        <li><strong>name:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Asigna un nombre al control de formulario, que se usa para identificar los datos del campo al enviarse al servidor.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier nombre válido.</li>
+                            </ul>
+                        </li>
+                        <li><strong>value:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Define el valor del control. Para los campos de entrada de texto, este es el texto que aparece por defecto; para los botones, es el texto que se muestra en el botón.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier texto.</li>
+                            </ul>
+                        </li>
+                        <li><strong>id:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Proporciona un identificador único para el control, útil para referencia en CSS o JavaScript.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier identificador único válido.</li>
+                            </ul>
+                        </li>
+                        <li><strong>placeholder:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Muestra un texto de ejemplo en el campo de entrada cuando está vacío, que desaparece cuando el usuario empieza a escribir.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier texto.</li>
+                            </ul>
+                        </li>
+                        <li><strong>required:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Indica que el campo es obligatorio y debe ser completado antes de enviar el formulario.</li>
+                                <li><strong>Valores posibles:</strong> Sin valor (presente o ausente).</li>
+                            </ul>
+                        </li>
+                        <li><strong>readonly:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Hace que el campo sea de solo lectura, evitando que el usuario modifique su contenido.</li>
+                                <li><strong>Valores posibles:</strong> Sin valor (presente o ausente).</li>
+                            </ul>
+                        </li>
+                        <li><strong>disabled:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Desactiva el campo, evitando que el usuario interactúe con él.</li>
+                                <li><strong>Valores posibles:</strong> Sin valor (presente o ausente).</li>
+                            </ul>
+                        </li>
+                        <li><strong>maxlength:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Establece el número máximo de caracteres que el usuario puede ingresar en un campo de texto.</li>
+                                <li><strong>Valores posibles:</strong> Un número entero.</li>
+                            </ul>
+                        </li>
+                        <li><strong>min:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Define el valor mínimo permitido para campos de tipo <code>number</code>, <code>date</code>, <code>range</code>, etc.</li>
+                                <li><strong>Valores posibles:</strong> Un valor que se alinee con el tipo del campo.</li>
+                            </ul>
+                        </li>
+                        <li><strong>max:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Define el valor máximo permitido para campos de tipo <code>number</code>, <code>date</code>, <code>range</code>, etc.</li>
+                                <li><strong>Valores posibles:</strong> Un valor que se alinee con el tipo del campo.</li>
+                            </ul>
+                        </li>
+                        <li><strong>step:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Define el intervalo entre los valores permitidos para campos de tipo <code>number</code> o <code>range</code>.</li>
+                                <li><strong>Valores posibles:</strong> Un valor numérico positivo.</li>
+                            </ul>
+                        </li>
+                        <li><strong>pattern:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Especifica una expresión regular que el valor del campo debe coincidir para ser válido (para campos de tipo <code>text</code>).</li>
+                                <li><strong>Valores posibles:</strong> Una expresión regular en formato de texto.</li>
+                            </ul>
+                        </li>
+                        <li><strong>autocomplete:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Indica si el navegador debe autocompletar el campo con valores previamente ingresados.</li>
+                                <li><strong>Valores posibles:</strong> <code>on</code> o <code>off</code>.</li>
+                            </ul>
+                        </li>
+                        <li><strong>form:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Especifica el <code>id</code> del formulario al que pertenece el control. Se utiliza si el campo de entrada está fuera del elemento <code>&lt;form&gt;</code>.</li>
+                                <li><strong>Valores posibles:</strong> Cualquier valor de <code>id</code> que corresponda a un formulario en el documento.</li>
+                            </ul>
+                        </li>
+                        <li><strong>aria-*:</strong> 
+                            <ul>
+                                <li><strong>Descripción:</strong> Atributos ARIA que mejoran la accesibilidad para usuarios con discapacidades.</li>
+                                <li><strong>Valores posibles:</strong> Dependiendo del atributo ARIA específico, como <code>aria-label</code>, <code>aria-labelledby</code>, <code>aria-describedby</code>, etc.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+
+                    
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/t1.PNG" alt="" width="550px" height="140px">
+                        <img src="img/forms/t1e.PNG" alt="" width="300px" height="70px">
+                    </div>
+                    <p>
+                        Línea 6: "input type="text" id="textInput" name="textInput" placeholder="Escribe aquí"" type="text": Define un campo de entrada de texto. placeholder="Escribe aquí": Muestra un texto de ejemplo en el campo cuando está vacío.                        
+                    </p>
+
+
+                </div> 
+
+                <hr> 
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/t2.PNG" alt="" width="700px" height="120px">
+                        <img src="img/forms/t2e.PNG" alt="" width="400px" height="40px">
+                    </div>
+                    <p>
+                        Línea 10: "input type="password" id="passwordInput" name="passwordInput" placeholder="Ingresa tu contraseña"" type="password": Define un campo de entrada para contraseñas, ocultando los caracteres ingresados.
+                    </p>
+
+
+                </div>                            
+
+                <hr> 
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/t3.PNG" alt="" width="800px" height="80px">
+                        <img src="img/forms/t3e.PNG" alt="" width="200px" height="40px">
+                    </div>
+                    <p>
+                        Línea 14: "input type="submit" id="submitButton" value="Enviar"" type="submit": Define un botón que envía el formulario.
+                    </p>
+
+
+                </div>    
+
+                <hr> 
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/t4.PNG" alt="" width="700px" height="80px">
+                        <img src="img/forms/t4e.PNG" alt="" width="400px" height="40px">
+                    </div>
+                    <p>
+                        Línea 18: "input type="email" id="emailInput" name="emailInput" placeholder="example@example.com"" type="email": Define un campo de entrada para correos electrónicos y valida el formato del correo ingresado.
+                    </p>
+
+
+                </div>       
+                
+                <hr> 
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/t5.PNG" alt="" width="700px" height="80px">
+                        <img src="img/forms/t5e.PNG" alt="" width="200px" height="40px">
+                    </div>
+                    <p>
+                        Línea 22: "input type="number" id="numberInput" name="numberInput" min="1" max="10""
+                        <ul>
+                        <li>type="number": Define un campo de entrada para números con validación de rango.</li>
+                        <li>min="1" y max="10": Establecen el rango permitido para el valor.</li>
+                        </ul>                       
+                    </p>
+
+
+                </div>                   
+
+                <hr> 
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/t6.PNG" alt="" width="700px" height="80px">
+                        <img src="img/forms/t6e.PNG" alt="" width="200px" height="40px">
+                    </div>
+                    <p>
+                        Línea 26: "input type="date" id="dateInput" name="dateInput"" type="date": Define un campo de entrada para seleccionar fechas.                    
+                    </p>
+
+
+                </div>                  
+
+                <hr> 
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/t7.PNG" alt="" width="700px" height="80px">
+                        <img src="img/forms/t7e.PNG" alt="" width="700px" height="500px">
+                    </div>
+                    <p>
+                        Línea 30: "input type="file" id="fileInput" name="fileInput"" type="file": Define un campo de entrada para seleccionar archivos.
+                    </p>
+
+
+                </div>    
+                
+                <hr> 
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/t8.PNG" alt="" width="700px" height="80px">
+                    </div>
+                    <p>
+                        Línea 34: "input type="hidden" name="hiddenField" value="valorOculto"" type="hidden": Define un campo oculto que no es visible para el usuario.                    
+                    </p>
+
+
+                </div>    
+                
+                <hr> 
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/t9.PNG" alt="" width="800px" height="80px">
+                        <img src="img/forms/t9e.PNG" alt="" width="200px" height="40px">
+                    </div>
+                    <p>
+                        Línea 38: "input type="search" id="searchInput" name="searchInput" placeholder="Buscar...""  type="search": Define un campo de entrada para búsquedas, con características específicas para realizar búsquedas.                                          
+                    </p>
+
+
+                </div>        
+                
+                <hr> 
+                <div>
+ 
+                    <div>
+                        <img src="img/forms/t10.PNG" alt="" width="800px" height="80px">
+                        <img src="img/forms/t10e.PNG" alt="" width="260px" height="40px">
+                    </div>
+                    <p>
+                        Línea 42: "input type="range" id="rangeInput" name="rangeInput" min="0" max="100" step="10"" 
+                        <ul>
+                        <li>type="range": Define un campo de entrada para seleccionar un valor dentro de un rango utilizando un control deslizante.</li>
+                        <li>min="0", max="100", y step="10": Establecen el rango y el intervalo de los valores permitidos.</li>
+                        </ul>
+
+                    </p>
+
+
+                </div>                  
+                
+            </div>  
+            
+            
+            <!-- De acá la segunda parte ---------------------------------------------------------------------------------------->
+            <!--  -->
+            <!--  -->
+
+
+
+
+
+
+            <div class="carta" id="fr5">
+                <h2 class="titCarta">Etiqueta  &lt;button&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;button&gt; &lt;/button&gt;
+                        </p>
+                        <p class="etiExplica">
+                            Se utiliza para crear un botón interactivo en una página web. Los botones pueden ser utilizados para enviar formularios, ejecutar
+                         scripts de JavaScript, o realizar otras acciones en respuesta a eventos del usuario. 
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>type:</strong> Especifica el tipo de botón, como "button" para un botón genérico, "submit" para enviar un formulario o "reset" para restablecer el formulario.</li>
+                        <li><strong>id:</strong> Asigna un identificador único al `button`, útil para aplicar estilos específicos o manipular el botón con JavaScript.</li>
+                        <li><strong>class:</strong> Aplica una o más clases al `button`, permitiendo usar estilos CSS definidos o seleccionarlo con JavaScript.</li>
+                        <li><strong>disabled:</strong> Deshabilita el `button`, impidiendo que el usuario interactúe con él.</li>
+                        <li><strong>name:</strong> Asigna un nombre al `button`, que se envía junto con los datos del formulario si el botón es de tipo "submit".</li>
+                        <li><strong>value:</strong> Define el valor del `button`, que se envía con los datos del formulario si es de tipo "submit".</li>
+                        <li><strong>style:</strong> Permite aplicar estilos CSS en línea al `button`, personalizando su apariencia.</li>
+                        <li><strong>title:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre el `button`, ofreciendo información adicional.</li>
+                        <li><strong>onclick:</strong> Especifica un código JavaScript que se ejecutará cuando se haga clic en el `button`.</li>
+                        <li><strong>autofocus:</strong> Hace que el `button` reciba automáticamente el foco cuando la página se carga.</li>
+                        <li><strong>form:</strong> Asocia el `button` a un formulario específico mediante su identificador.</li>
+                        <li><strong>formaction:</strong> Define la URL a la que se envían los datos del formulario cuando se hace clic en un `button` de tipo "submit".</li>
+                        <li><strong>formenctype:</strong> Especifica cómo se deben codificar los datos del formulario cuando se envían, aplicable solo a botones de tipo "submit".</li>
+                        <li><strong>formmethod:</strong> Define el método HTTP ("GET" o "POST") a utilizar al enviar un formulario, aplicable solo a botones de tipo "submit".</li>
+                        <li><strong>formnovalidate:</strong> Indica que no se debe validar el formulario al enviarlo, aplicable solo a botones de tipo "submit".</li>
+                        <li><strong>formtarget:</strong> Especifica dónde se debe mostrar la respuesta después de enviar el formulario, aplicable solo a botones de tipo "submit".</li>
+                    </ul>
+                    
+                                        
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="img/imgForm/ejem1.png" alt="" width="600px" height="400px"> <br>
+                        <img src="img/imgForm/ejem1.1.png" alt="" width="200px" height="100px">
+                        <img src="img/imgForm/ejem1.2.png" alt="" width="350px" height="150px">
+                    </div>
+                    <p>
+                        
+                        <br> Línea 1: id="botonEnviar" Asigna un identificador único 'botonEnviar' al botón.
+                        <br> Línea 12: class="btn btn-enviar" Aplica las clases 'btn' y 'btn-enviar' para estilos CSS.
+                        <br> Línea 13: type="submit" Define el botón como un botón de envío de formulario.
+                        <br> Línea 14: title="Enviar el formulario" Proporciona un *tooltip* que muestra "Enviar el formulario" cuando el usuario pasa el cursor sobre el botón.
+                        <br> Línea 15: style="background-color: #4CAF50; color: white; padding: 10px 20px; border-radius: 5px;" Aplica estilos en línea para personalizar la apariencia del botón.
+                        <br> Línea 16: disabled Deshabilita el botón, impidiendo que el usuario lo presione.
+                        <br> Línea 17: name="envio" Asigna el nombre 'envio' al botón.
+                        <br> Línea 18: value="enviar" Define el valor del botón como "enviar".
+                        <br> Línea 19: onclick="alert('Formulario enviado!')" Ejecuta un código JavaScript cuando se hace clic en el botón.
+                        <br> Línea 20: autofocus Hace que el botón reciba automáticamente el foco al cargar la página.
+                    </p>
+
+                </div>                
+
+            </div>            
+            <br><br>
+
+            <div class="carta" id="fr6">
+                <h2 class="titCarta">Etiqueta  &lt;select&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;select&gt; &lt;/select&gt;
+                        </p>
+                        <p class="etiExplica">
+                            Se utiliza para crear un menú desplegable que permite a los usuarios seleccionar una opción de una lista de opciones. 
+                            Es comúnmente utilizada en formularios. 
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>id:</strong> Asigna un identificador único al `select`, útil para aplicar estilos específicos o manipular el elemento con JavaScript.</li>
+                        <li><strong>class:</strong> Aplica una o más clases al `select`, permitiendo aplicar estilos CSS o seleccionar el elemento con JavaScript.</li>
+                        <li><strong>name:</strong> Define el nombre del `select`, que se enviará junto con el valor seleccionado cuando se envíe el formulario.</li>
+                        <li><strong>size:</strong> Especifica la cantidad de opciones visibles en el `select` sin necesidad de desplazamiento.</li>
+                        <li><strong>multiple:</strong> Permite seleccionar más de una opción a la vez.</li>
+                        <li><strong>disabled:</strong> Deshabilita el `select`, impidiendo que el usuario lo utilice.</li>
+                        <li><strong>required:</strong> Indica que se debe seleccionar al menos una opción antes de enviar el formulario.</li>
+                        <li><strong>autofocus:</strong> Hace que el `select` reciba automáticamente el foco al cargar la página.</li>
+                        <li><strong>form:</strong> Asocia el `select` con un formulario específico si está fuera del `form` correspondiente.</li>
+                        <li><strong>data-*:</strong> Permite almacenar datos personalizados en el `select` para su uso en JavaScript.</li>
+                    </ul>
+                    
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="img/imgForm/ejem2.png" alt="" width="600px" height="400px">
+                        <img src="img/imgForm/ejem2.2.png" alt="" width="400px" height="200px">
+                    </div>               
+                    <p>
+                        Línea 11: id="opciones" Asigna un identificador único 'opciones' al `select`, útil para aplicarle estilos específicos o manipularlo con JavaScript.
+                        <br> Línea 12: class="opciones-seleccion" Aplica la clase 'opciones-seleccion' al `select`, permitiendo aplicar estilos CSS.
+                        <br> Línea 13: name="opcion" Define el nombre 'opcion' para el `select`, que se enviará junto con el valor seleccionado cuando se envíe el formulario.
+                        <br> Línea 14: size="4" Muestra 4 opciones visibles sin necesidad de desplazamiento en el `select`.
+                        <br> Línea 15: multiple Permite seleccionar más de una opción a la vez en el `select`.
+                        <br> Línea 16: required Indica que se debe seleccionar al menos una opción antes de enviar el formulario que contiene el `select`.
+                        <br> Línea 17: disabled Deshabilita el `select`, impidiendo que el usuario lo utilice (puedes quitar este atributo si quieres permitir la selección).
+                        <br> Línea 18: autofocus Hace que el `select` reciba automáticamente el foco al cargar la página.
+                        <br> Línea 19: data-info="seleccion-opciones" Almacena un dato personalizado 'seleccion-opciones' en el `select`, accesible mediante JavaScript.
+                    </p>
+                    </div>                
+
+            </div>
+            <div class="carta" id="fr7">
+                <h2 class="titCarta">Etiqueta  &lt;option&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;option&gt; &lt;/option&gt;
+                        </p>
+                        <p class="etiExplica">
+                            Se utiliza para definir una opción dentro de un menú desplegable creado con la etiqueta select. 
+                                Cada option representa una opción que el usuario puede seleccionar.
+                                 </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>value:</strong> Define el valor que se enviará al servidor cuando se seleccione esta opción.</li>
+                        <li><strong>selected:</strong> Preselecciona esta opción cuando se carga la página, mostrándola como la opción seleccionada por defecto.</li>
+                        <li><strong>disabled:</strong> Deshabilita la opción, impidiendo que el usuario la seleccione.</li>
+                        <li><strong>label:</strong> Proporciona un nombre alternativo que puede mostrarse en lugar del texto de la opción.</li>
+                        <li><strong>class:</strong> Asigna una o más clases a la opción, permitiendo aplicar estilos CSS específicos.</li>
+                        <li><strong>id:</strong> Asigna un identificador único a la opción, útil para manipularla con CSS o JavaScript.</li>
+                        <li><strong>style:</strong> Permite aplicar estilos CSS en línea para personalizar la apariencia de la opción.</li>
+                        <li><strong>data-*:</strong> Almacena datos personalizados en la opción, accesibles mediante JavaScript.</li>
+                    </ul>
+                                                            
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="img/imgForm/ejem3.png" alt="" width="600px" height="350px"> <br>
+                        <img src="img/imgForm/ejem3.1.png" alt="" width="400px" height="100px">
+                        <img src="img/imgForm/ejem3.2.png" alt="" width="400px" height="200px">
+                    </div>
+                   
+                    <p>
+                        Línea 10: `value="valor1"` Define el valor 'valor1' que se enviará al servidor cuando se seleccione esta opción.
+                        <br>Línea 11: `selected` Preselecciona esta opción, mostrándola como la opción seleccionada por defecto.
+                        <br>Línea 12: `value="valor2"` Define el valor 'valor2' que se enviará al servidor cuando se seleccione esta opción.
+                        <br>Línea 13: `disabled` Deshabilita esta opción, impidiendo que el usuario la seleccione.
+                        <br>Línea 14: `value="valor3"` Define el valor 'valor3' que se enviará al servidor cuando se seleccione esta opción.
+                    </p>
+                </div>                
+
+            </div>    
+
+            
+            <div class="carta" id="fr8">
+                <h2 class="titCarta">Etiqueta  &lt;textarea&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;textarea&gt; &lt;/textarea&gt;
+                        </p>
+                        <p class="etiExplica">
+                            Se utiliza para crear un campo de texto multilínea que permite a los usuarios ingresar y editar texto de forma
+                             más extensa que un campo de texto simple.
+                           
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>id:</strong> Asigna un identificador único al `textarea`, útil para aplicarle estilos específicos o manipular su contenido con JavaScript.</li>
+                        <li><strong>name:</strong> Define el nombre del `textarea`, que se enviará junto con su contenido cuando se envíe el formulario.</li>
+                        <li><strong>rows:</strong> Establece el número de filas visibles del `textarea`.</li>
+                        <li><strong>cols:</strong> Establece el número de columnas visibles del `textarea`.</li>
+                        <li><strong>placeholder:</strong> Proporciona un texto de ayuda que aparece dentro del `textarea` cuando está vacío.</li>
+                        <li><strong>maxlength:</strong> Limita el número máximo de caracteres que se pueden ingresar en el `textarea`.</li>
+                        <li><strong>readonly:</strong> Hace que el `textarea` sea solo de lectura, impidiendo que el usuario modifique su contenido.</li>
+                        <li><strong>disabled:</strong> Deshabilita el `textarea`, impidiendo que el usuario lo use o modifique su contenido.</li>
+                        <li><strong>required:</strong> Indica que el `textarea` debe ser completado antes de enviar el formulario.</li>
+                        <li><strong>wrap:</strong> Define cómo se debe ajustar el texto dentro del `textarea`, con valores posibles como `soft` (ajuste automático) o `hard` (ajuste manual).</li>
+                        <li><strong>autofocus:</strong> Hace que el `textarea` reciba el foco automáticamente cuando se carga la página.</li>
+                    </ul>
+              
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="img/imgForm/ejem4.png" alt="" width="600px" height="440px">
+                        <img src="img/imgForm/ejem4.4.png" alt="" width="400px" height="200px">
+                    </div>
+                    <p>
+                        Línea 10: id="comentarios": Asigna un identificador único 'comentarios' al `textarea`, útil para aplicarle estilos específicos o manipularlo con JavaScript.
+                        <br>Línea 11: name="comentarios": Define el nombre del `textarea`, que se enviará junto con su contenido cuando se envíe el formulario.
+                        <br>Línea 12: rows="4": Establece el número de filas visibles del `textarea` en 4.
+                        <br>Línea 13: cols="50": Establece el número de columnas visibles del `textarea` en 50.
+                        <br>Línea 14: placeholder="Escribe tu comentario aquí...": Proporciona un texto de ayuda que aparece dentro del `textarea` cuando está vacío.
+                        <br>Línea 15: maxlength="300": Limita el número máximo de caracteres que se pueden ingresar en el `textarea` a 300.
+                        <br>Línea 16: readonly: Hace que el `textarea` sea solo de lectura, impidiendo que el usuario modifique su contenido.
+                        <br>Línea 17: disabled: Deshabilita el `textarea`, impidiendo que el usuario lo use o modifique su contenido.
+                        <br>Línea 18: required: Indica que el `textarea` debe ser completado antes de enviar el formulario.
+                        <br>Línea 19: wrap="soft": Define que el texto se ajustará automáticamente dentro del `textarea`.
+                        <br>Línea 20: autofocus: Hace que el `textarea` reciba el foco automáticamente cuando se carga la página.
+                    </p>
+                    
+                    
+                </div>                
+
+            </div>  
+            
+            
+                        
+
+
+        </div>
+
+    </div>
+
+
+</body>
+<footer>
+    <div id="contenedor">
+        <div id="cont60">
+            <h2>Instituto Tecnológico de Chilpancingo</h2>
+            <p>Somos estudiantes de la carrera de ingeniería en Sistemas computacionales cursando la asignatura de programación web</p>
+        </div>
+        <div class="cont20">
+            <h2>Contacto</h2>
+            <p>l21520390@chilpancingo.tecnm.mx</p>
+            <p>l21520479@chilpancingo.tecnm.mx</p>
+        </div>
+        <div class="cont20b">
+            <h2>Elaborado por</h2>
+            <p>
+                Mejía López Carlos Abel <br>
+                Pelaez Zacapala Karla Getsemaní
+            </p>
+        </div>                        
+
+    </div>
+</footer>
+</html>

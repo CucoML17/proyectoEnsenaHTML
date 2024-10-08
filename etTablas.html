@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas de tabla</title>
+    <link rel="stylesheet" href="estilos/estiloIndex.css">
+    
+</head>
+<body>
+    <header id="arriba">
+
+        <div id="cabeza">
+            <div id="tit">
+                <h1><a href="index.html">Atlantic HTML</a></h1>
+            </div>
+        </div>
+        <nav id="nave">
+            <ul>
+                <!-- Parte Getsemaní -->
+                <!-- <li>Etiquetas iniciales</li> -->
+                <li><a href="etEst.html">Etiquetas de estructura</a></li>
+                <!-- <li>Etiquetas de metadatos</li> -->
+                <li><a href="etAgru.html">Etiquetas de agrupación</a></li>
+                <!-- Parte Abel -->
+                <li><a href="etTexto.html">Etiquetas de texto</a></li>
+                <!-- <li>Etiquetas multimedia</li> -->
+                <li><a href="etTablas.html">Etiquetas de tablas</a></li>
+                <!-- <li>Formularios <br>-</li> -->
+                <li><a href="etForms.html">Etiquetas de formulario</a></li>
+
+                <li><a href="etEstilos.html">Hojas de estilos y atributos</a></li>                
+
+                <li><a href="etFrame.html">Frameworks - Materialize web</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <div id="secCambiante">
+
+        <aside id="masInfo">
+            <div>
+                <h3>Índice de todas las etiquetas</h3>
+                <ul>
+                    <!-- Parte Getsemaní -->
+
+                    <li><a href="etEst.html">Etiquetas de estructura</a></li>
+                        <ul>
+                            <li>&lt;body&gt;</li>
+                            <li>&lt;nav&gt;</li>
+                            <li>&lt;main&gt;</li>
+                            <li>&lt;section&gt;</li>
+                            <li>&lt;article&gt;</li>
+                            <li>&lt;aside&gt;</li>
+                            <li>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</li>
+                            <li>&lt;header&gt;</li>
+                            <li>&lt;footer&gt;</li>
+                        </ul>
+                        
+
+                        
+
+                    </li>
+                    <br>
+
+
+                    <li><a href="etAgru.html">Etiquetas de agrupación</a></li>
+                    <ul>
+                        <li>&lt;p&gt;</li>
+                        <li>&lt;hr&gt;</li>
+                        <li>&lt;pre&gt;</li>
+                        <li>&lt;blockquote&gt;</li>
+                        <li>&lt;ol&gt;</li>
+                        <li>&lt;ul&gt;</li>
+                        <li>&lt;li&gt;</li>
+                        <li>&lt;dl&gt;</li>
+                        <li>&lt;dt&gt;</li>
+                        <li>&lt;dd&gt;</li>
+                        <li>&lt;figure&gt;</li>
+                        <li>&lt;figcaption&gt;</li>
+                        <li>&lt;div&gt;</li>
+                    </ul>
+                    <br>
+                    <!-- Parte Abel -->
+                    <li> <a href="etTexto.html">Etiquetas de texto</a>
+
+                        <ul>
+                            <li>&lt;a&gt;</li>
+                            <li>&lt;strong&gt;</li>
+                            <li>&lt;small&gt;</li>
+                            <li>&lt;cite&gt;</li>
+                            <li>&lt;sub&gt; y &lt;sup&gt;</li>
+                            <li>&lt;mark&gt;</li>
+                            <li>&lt;span&gt;</li>
+                            <li>&lt;br&gt;</li>
+                        </ul>
+                        
+                    </li>
+                    <br>
+
+
+                    <li><a href="etTablas.html">Etiquetas de tablas</a>
+                        <ul>
+                            <li>&lt;table&gt;</li>
+                            <li>&lt;caption&gt;</li>
+                            <li>&lt;colgroup&gt;</li>
+                            <li>&lt;tbody&gt;</li>
+                            <li>&lt;thead&gt;</li>
+                            <li>&lt;tfoot&gt;</li>
+                            <li>&lt;tr&gt;</li>
+                            <li>&lt;td&gt;</li>
+                            <li>&lt;th&gt;</li>
+                        </ul>
+                        
+
+                    </li>
+                    <br>
+                    <li><a href="etForms.html">Etiquetas de formularios</a>
+                        <ul>
+                            <li>&lt;form&gt;</li>
+                            <li>&lt;legend&gt;</li>
+                            <li>&lt;label&gt;</li>
+                            <li>&lt;input&gt;</li>
+                            <li>&lt;button&gt;</li>
+                            <li>&lt;select&gt;</li>
+                            <li>&lt;option&gt;</li>
+                            <li>&lt;textarea&gt;</li>
+                            
+                        </ul>
+                        
+
+                    </li>
+                    <br>
+                    <li><a href="etFrame.html">Framework Materialize web</a>
+                        <ul>
+                            <li>Badges</li>
+                            <li>Buttons</li>
+                            <li>Breadcrumbs</li>
+                            <li>Cards</li>
+                            <li>Collections</li>
+                            <li>Floating action button</li>
+                            <li>Footer</li>
+                            
+                            <li>Navbar</li>
+                            <li>Pagination</li>
+                            <li>Preloader</li>
+
+                            
+                        </ul>
+                        
+
+                    </li>    
+                    <br>                    
+                </ul>
+
+            </div>            
+        </aside>
+        
+        <div id="contenido">
+           <h2>Etiquetas para la creación de tablas y contenedores</h2>
+           <hr>
+            <p>
+                Las etiquetas HTML para tablas son esenciales para organizar y presentar datos estructurados en forma de filas y columnas dentro de una página web. Estas etiquetas permiten a los desarrolladores crear tablas que no solo son funcionales, sino también accesibles y fáciles de entender para los usuarios y los motores de búsqueda.
+            </p>
+     
+           <!-- Tabla de contenidos -->
+            <div class="cotenedor2m">
+                <div id="tablaContenido" style="width: 40%;">
+                    <h4>Índice de contenidos</h4>
+                    <ol>
+                        <li><a href="#tbl1">&lt;table&gt;</a></li>
+                        <li><a href="#tbl2">&lt;caption&gt;</a></li>
+                        <li><a href="#tbl3">&lt;colgroup&gt;</a></li>
+                        <li><a href="#tbl4">&lt;tbody&gt;</a></li>
+                        <li><a href="#tbl5">&lt;thead&gt;</a></li>
+                        <li><a href="#tbl6">&lt;tfoot&gt;</a></li>
+                        <li><a href="#tbl7">&lt;tr&gt;</a></li>
+                        <li><a href="#tbl8">&lt;td&gt;</a></li>
+                        <li><a href="#tbl9">&lt;th&gt;</a></li>
+                    </ol>
+                </div>
+                <div>
+                    <img src="imgTabla/tabla.PNG" alt="" width="250px" height="200px">
+                    
+                </div>
+            </div>
+
+
+            <br><br>
+            <hr>
+           <!-- Formato de disposición para cada etiqueta y así explicar su información -->
+            <div class="carta" id="tbl1">
+                <h2 class="titCarta">Etiqueta  &lt;table&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;table&gt; &lt;/table&gt;
+                        </p>
+                        <p class="etiExplica">
+                            Estas son las etiquetas de apertura y cierre para una tabla en HTML. Todos los elementos de la tabla, incluyendo filas, celdas y encabezados, deben estar contenidos dentro de estas dos etiquetas.
+                            <br><br>Se utiliza para definir el inicio y el fin de la tabla, creando un contenedor para los datos tabulares.                        
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>class:</strong> Asigna una o más clases al elemento, permitiendo aplicar estilos CSS o seleccionar el elemento con JavaScript.</li>
+                        <li><strong>id:</strong> Asigna un identificador único al elemento, útil para aplicar estilos específicos o manipular la tabla con JavaScript.</li>
+                        <li><strong>style:</strong> Permite aplicar estilos CSS en línea para personalizar la apariencia de la tabla.</li>
+                        <li><strong>title:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre la tabla, ofreciendo información adicional.</li>
+                        <li><strong>summary:</strong> Proporciona una descripción breve del propósito y la estructura de la tabla para usuarios de lectores de pantalla.</li>
+                        <li><strong>border:</strong> Controla el grosor del borde de la tabla.</li>
+                        <li><strong>cellpadding:</strong> Define el espacio entre el borde de la celda y el contenido de la celda.</li>
+                        <li><strong>cellspacing:</strong> Define el espacio entre las celdas de la tabla.</li>
+                        <li><strong>width:</strong> Establece el ancho de la tabla.</li>
+                        <li><strong>align:</strong> Controla la alineación de la tabla en la página.</li>
+                    </ul>
+                                        
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="imgTabla/table.PNG" alt="" width="600px" height="400px">
+                        <img src="imgTabla/e1.PNG" alt="" width="830px" height="140px">
+                    </div>
+                    <p>
+                        Línea 8: class="my-table" Asigna la clase my-table a la tabla. Esto permite aplicar estilos CSS definidos en la hoja de estilos.
+                      <br>  Línea 9: id="salesTable" Asigna un identificador único salesTable a la tabla para su referencia específica en CSS o JavaScript.
+                       <br> Línea 10: style="border: 2px solid black;" Aplica un borde de 2 píxeles de grosor y color negro alrededor de la tabla mediante estilos en línea.
+                       <br>Línea 11: title="Tabla de ventas del trimestre" Proporciona un tooltip que muestra "Tabla de ventas del trimestre" cuando el usuario pasa el cursor sobre la tabla.
+                       <br>Línea 12: summary="Tabla que muestra las ventas trimestrales por región" Ofrece una descripción breve del propósito de la tabla para usuarios de lectores de pantalla.
+                        
+                       <br>Línea 13: border="2" Define un borde de 2 píxeles alrededor de la tabla. Establece el grosor del borde.
+                       <br>Línea 14: cellpadding="10" Establece un relleno de 10 píxeles dentro de cada celda, añadiendo espacio entre el borde de la celda y el contenido.
+                       <br>Línea 15: cellspacing="5" Define un espaciado de 5 píxeles entre las celdas de la tabla, separando visualmente las celdas adyacentes.
+                       <br>Línea 16: width="600" Establece el ancho de la tabla en 600 píxeles.
+                        <br>Línea 17: align="center" Alinea la tabla en el centro del contenedor. Controla la alineación horizontal de la tabla.                        
+                        <br>Línea 19: Se crea la etiqueta table para indicar que lo siguiente será el contenido de una tabla por columnas, celdas y filas.
+                    </p>
+                </div>                
+
+            </div>            
+            <br><br>
+
+            
+            <div class="carta" id="tbl2">
+                <h2 class="titCarta">Etiqueta  &lt;caption&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;caption&gt; &lt;/caption&gt;
+                        </p>
+                        <p class="etiExplica">
+                            Esta etiqueta se usa para proporcionar un título a la tabla. El título se muestra generalmente encima de la tabla y ayuda a describir el propósito o contenido de la tabla.
+                          <br><br>Coloca la etiqueta "caption" inmediatamente después de "table" para que el título aparezca correctamente sobre la tabla.                           
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>class:</strong> Asigna una o más clases al elemento, permitiendo aplicar estilos CSS específicos a la leyenda de la tabla.</li>
+                        <li><strong>id:</strong> Asigna un identificador único al elemento, útil para aplicar estilos específicos o manipular la leyenda con JavaScript.</li>
+                        <li><strong>style:</strong> Permite aplicar estilos CSS en línea directamente a la leyenda de la tabla.</li>
+                        <li><strong>title:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre la leyenda, ofreciendo información adicional.</li>
+                        <li><strong>lang:</strong> Especifica el idioma de la leyenda, ayudando a los navegadores y herramientas de accesibilidad a interpretar el texto en el idioma correcto.</li>
+                        <li><strong>dir:</strong> Define la dirección del texto en la leyenda, que puede ser:
+                            <ul>
+                                <li><strong>ltr:</strong> De izquierda a derecha.</li>
+                                <li><strong>rtl:</strong> De derecha a izquierda.</li>
+                            </ul>
+                        </li>
+                        <li><strong>accesskey:</strong> Define una tecla de acceso rápido que puede ser utilizada para enfocar o activar la leyenda.</li>
+                        <li><strong>tabindex:</strong> Establece el orden de tabulación del elemento, permitiendo que sea navegable mediante el teclado.</li>
+                        <li><strong>role:</strong> Define un papel (rol) accesible para la leyenda, proporcionando información adicional a las tecnologías de asistencia sobre el propósito del elemento.</li>
+                        <li><strong>aria-label:</strong> Proporciona una etiqueta accesible que describe el propósito del elemento para usuarios de tecnologías de asistencia.</li>
+                        <li><strong>aria-labelledby:</strong> Referencia el ID de otro elemento que proporciona una etiqueta accesible para la leyenda, ayudando a describir su propósito.</li>
+                    </ul>
+                    
+                                   
+                    
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="imgTabla/caption1.PNG" alt="" width="600px" height="400px">
+                    </div>
+                    <div>
+                        <img src="imgTabla/caption2.PNG" alt="" width="400px" height="200px">
+                        <img src="imgTabla/e2.PNG" alt="" width="830px" height="120px">
+                    </div>                    
+                    <p>
+                        <br>Línea 8: class="table-caption": Asigna la clase table-caption a la leyenda de la tabla, permitiendo aplicar estilos CSS específicos definidos en la hoja de estilos.
+                        <br>Línea 9: id="salesCaption": Asigna el identificador único salesCaption a la leyenda, útil para referenciarla en CSS o JavaScript.
+                        <br>Línea 10: style="color: blue;": Aplica un color de texto azul a la leyenda mediante estilos en línea.
+                        <br>Línea 11: title="Resumen de ventas": Proporciona un tooltip que muestra "Resumen de ventas" cuando el usuario pasa el cursor sobre la leyenda.
+                        <br>Línea 12: Ventas Trimestrales por Región, Texto visible de la leyenda que proporciona una descripción sobre el contenido de la tabla. En este caso, describe que la tabla muestra las ventas trimestrales por región. 
+                        <br>Línea 18: Indica que el captio esté abajo con caption-side:bottom;
+                        <br>Línea 24: Se coloca la etiqueta caption para indicar que será el título o subtítulo de la tabla.
+
+                </div>                
+
+            </div>
+
+
+            <div class="carta" id="tbl3">
+                <h2 class="titCarta">Etiqueta  &lt;colgroup&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;colgroup&gt; &lt;/colgroup&gt;
+                        </p>
+                        <p class="etiExplica">
+                            La etiqueta "colgroup" se utiliza para agrupar una o más columnas de una tabla y aplicarles atributos o estilos en común. Esto puede ser útil para aplicar un formato específico a varias columnas simultáneamente.
+<br><br>Se coloca dentro de "table", antes de las etiquetas "thead", "tbody", o "tfoot", y puede contener múltiples etiquetas "col".
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>class:</strong> Asigna una o más clases al grupo de columnas, permitiendo aplicar estilos CSS específicos a esas columnas.</li>
+                        <li><strong>id:</strong> Asigna un identificador único al grupo de columnas, útil para referenciarlo en CSS o JavaScript.</li>
+                        <li><strong>style:</strong> Permite aplicar estilos CSS en línea directamente al grupo de columnas.</li>
+                        <li><strong>span:</strong> Define el número de columnas que el grupo debe abarcar. Este atributo es opcional y si no se especifica, el grupo abarca todas las columnas dentro de él.</li>
+                        <li><strong>title:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre el grupo de columnas, ofreciendo información adicional.</li>
+                        <li><strong>dir:</strong> Define la dirección del texto en el grupo de columnas, que puede ser:
+                            <ul>
+                                <li><strong>ltr:</strong> De izquierda a derecha.</li>
+                                <li><strong>rtl:</strong> De derecha a izquierda.</li>
+                            </ul>
+                        </li>
+                        <li><strong>lang:</strong> Especifica el idioma del contenido en el grupo de columnas, ayudando a los navegadores y herramientas de accesibilidad a interpretar el texto en el idioma correcto.</li>
+                        <li><strong>role:</strong> Define un papel (rol) accesible para el grupo de columnas, proporcionando información adicional a las tecnologías de asistencia sobre el propósito del grupo.</li>
+                    </ul>
+                    
+                                                            
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="imgTabla/colgo1.PNG" alt="" width="600px" height="400px">
+                    </div>
+                    <div>
+                        <img src="imgTabla/colgo2.PNG" alt="" width="400px" height="400px">
+                        <img src="imgTabla/e3.PNG" alt="" width="830px" height="120px">
+                    </div>  
+
+                    <p>
+                        Línea 8: caption Define una leyenda para la tabla, proporcionando un título o descripción.
+                        <br>Línea 14: colgroup
+                        
+                        <br>Agrupa una o más columnas para aplicar estilos o atributos comunes. En este caso, se aplica un color de fondo al grupo de columnas.
+                        <br>Línea 15: col
+                        
+                        <br>Define un grupo de columnas dentro de <colgroup>. Aquí se especifica el ancho de cada columna: el primer grupo tiene un fondo amarillo y ocupa el 30% del ancho, mientras que los otros dos grupos ocupan el 35% cada uno.
+                        <br>Línea 19-21: thead, th
+                        
+                        <br>Define la sección de encabezado de la tabla y sus columnas. <th> se utiliza para los encabezados de las columnas.
+                        <br>Línea 23-29: tbody, tr, td
+                        
+                        <br>Define el cuerpo de la tabla y sus filas. <tr> representa cada fila, y <td> define las celdas de datos dentro de cada fila.   
+                            <br>Línea 32, crea la etiqueta colgroup para indicar que será un grupo de columnas, en este caso, conteniendo otras etiquetas "col", pintado de amarillo.
+
+                    </p>
+                </div>                
+
+            </div>    
+            
+            <div class="carta" id="tbl4">
+                <h2 class="titCarta">Etiqueta  &lt;tbody&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;tbody&gt; &lt;/tbody&gt;
+                        </p>
+                        <p class="etiExplica">
+                            Esta etiqueta define el cuerpo de la tabla, que es la sección donde se presentan los datos concretos. Los datos de la tabla se organizan en filas dentro de esta sección.
+                            <br>Debe colocarse después de "thead" y antes de "tfoot", si están presentes, para agrupar todas las filas de datos.
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>class:</strong> Asigna una o más clases al elemento, permitiendo aplicar estilos CSS específicos.</li>
+                        <li><strong>id:</strong> Asigna un identificador único al elemento, útil para referencia en CSS o JavaScript.</li>
+                        <li><strong>style:</strong> Permite aplicar estilos CSS en línea directamente al elemento.</li>
+                        <li><strong>title:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre el elemento.</li>
+                        <li><strong>lang:</strong> Especifica el idioma del contenido del elemento, ayudando a los navegadores y herramientas de accesibilidad a interpretar el texto correctamente.</li>
+                        <li><strong>dir:</strong> Define la dirección del texto dentro del elemento, que puede ser:
+                            <ul>
+                                <li><strong>ltr:</strong> De izquierda a derecha.</li>
+                                <li><strong>rtl:</strong> De derecha a izquierda.</li>
+                            </ul>
+                        </li>
+                        <li><strong>role:</strong> Define un papel (rol) accesible para el elemento, proporcionando información adicional a las tecnologías de asistencia sobre el propósito del elemento.</li>
+                        <li><strong>aria-label:</strong> Proporciona una etiqueta accesible que describe el propósito del elemento para usuarios de tecnologías de asistencia.</li>
+                        <li><strong>aria-labelledby:</strong> Referencia el ID de otro elemento que proporciona una etiqueta accesible para el <code>&lt;tbody&gt;</code>, ayudando a describir su propósito.</li>
+                    </ul>
+
+                    
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="imgTabla/tbody.PNG" alt="" width="600px" height="440px">
+                        <img src="imgTabla/e4.PNG" alt="" width="830px" height="120px">
+                    </div>
+                    <p>
+                        <br>Línea 14: class="highlight": Asigna la clase highlight al elemento <tbody>, permitiendo aplicar el estilo CSS definido para esta clase. En este caso, se aplica un color de fondo amarillo a las filas dentro del <tbody>.
+                            <br>Línea 15: id="salesData": Asigna el identificador único salesData al <tbody>. Esto permite hacer referencia al <tbody> en CSS o JavaScript de manera específica.
+                            <br>Línea 16: style="font-weight: bold;": Aplica estilos CSS en línea al <tbody>, en este caso, el texto dentro del <tbody> se mostrará en negrita.
+                            <br>Línea 17: title="Datos de ventas" proporciona un texto emergente (tooltip) que muestra "Datos de ventas" cuando el usuario pasa el cursor sobre el <tbody>.                        
+                                <br>
+                                Línea 23: Crea la etiqueta tbody para mantener el cuerpo de la tabla; en este caso pintado de amarillo.
+
+                   </p>
+                </div>                
+
+            </div>  
+            
+            
+            <div class="carta" id="tbl5">
+                <h2 class="titCarta">Etiqueta  &lt;thead&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;thead&gt; &lt;/thead&gt;
+                        </p>
+                        <p class="etiExplica">
+                            Se utiliza para definir el encabezado de la tabla. Dentro de esta sección se colocan las filas que contienen los títulos de las columnas, ayudando a identificar y describir los datos en cada columna. <br>Se coloca al principio de la tabla, antes de "tbody", para definir las filas de encabezado.
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>class:</strong> Asigna una o más clases al elemento, permitiendo aplicar estilos CSS específicos.</li>
+                        <li><strong>id:</strong> Asigna un identificador único al elemento, útil para referencia en CSS o JavaScript.</li>
+                        <li><strong>style:</strong> Permite aplicar estilos CSS en línea directamente al elemento.</li>
+                        <li><strong>title:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre el elemento.</li>
+                        <li><strong>lang:</strong> Especifica el idioma del contenido del elemento, ayudando a los navegadores y herramientas de accesibilidad a interpretar el texto correctamente.</li>
+                        <li><strong>dir:</strong> Define la dirección del texto dentro del elemento, que puede ser:
+                            <ul>
+                                <li><strong>ltr:</strong> De izquierda a derecha.</li>
+                                <li><strong>rtl:</strong> De derecha a izquierda.</li>
+                            </ul>
+                        </li>
+                        <li><strong>role:</strong> Define un papel (rol) accesible para el elemento, proporcionando información adicional a las tecnologías de asistencia sobre el propósito del elemento.</li>
+                        <li><strong>aria-label:</strong> Proporciona una etiqueta accesible que describe el propósito del elemento para usuarios de tecnologías de asistencia.</li>
+                        <li><strong>aria-labelledby:</strong> Referencia el ID de otro elemento que proporciona una etiqueta accesible para el <code>&lt;thead&gt;</code>, ayudando a describir su propósito.</li>
+                    </ul>
+                    
+                                                            
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="imgTabla/thead.PNG" alt="" width="600px" height="450px">
+                        <img src="imgTabla/e5.PNG" alt="" width="830px" height="120px">
+                    </div>
+                    <p>
+                       <br> Línea 14: class="highlight": Asigna la clase highlight al elemento <thead>, permitiendo aplicar el estilo CSS definido para esta clase. En este caso, los encabezados dentro del <thead> se mostrarán en negrita.
+                           <br> Línea 15: id="headerSection": Asigna el identificador único headerSection al <thead>. Esto permite hacer referencia al <thead> en CSS o JavaScript de manera específica.
+                            <br>Línea 16: se coloca la etiqueta thead, en este caso se pintará de gris, representa la cabecera de la tabla.
+                            <br>Línea 17: title="Encabezados de tabla": Proporciona un texto emergente (tooltip) que muestra "Encabezados de tabla" cuando el usuario pasa el cursor sobre el <thead>                        
+                                                  
+                    
+                    </p>
+                </div>                
+
+            </div>  
+
+
+
+            <div class="carta" id="tbl6">
+                <h2 class="titCarta">  &lt;tfoot&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;tfoot&gt; &lt;/tfoot&gt;
+                        </p>
+                        <p class="etiExplica">
+                            Esta etiqueta indica la sección del pie de la tabla, donde se pueden incluir resúmenes, totales o datos de resumen para una o más columnas. Es útil para mostrar información agregada o totalizaciones. <br>Se coloca después de "tbody" y antes del cierre de la etiqueta "table", permitiendo que la información de resumen esté claramente separada del resto de los datos.                                                        
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>class:</strong> Asigna una o más clases al elemento, permitiendo aplicar estilos CSS específicos.</li>
+                        <li><strong>id:</strong> Asigna un identificador único al elemento, útil para referencia en CSS o JavaScript.</li>
+                        <li><strong>style:</strong> Permite aplicar estilos CSS en línea directamente al elemento.</li>
+                        <li><strong>title:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre el elemento.</li>
+                        <li><strong>lang:</strong> Especifica el idioma del contenido del elemento, ayudando a los navegadores y herramientas de accesibilidad a interpretar el texto correctamente.</li>
+                        <li><strong>dir:</strong> Define la dirección del texto dentro del elemento, que puede ser:
+                            <ul>
+                                <li><strong>ltr:</strong> De izquierda a derecha.</li>
+                                <li><strong>rtl:</strong> De derecha a izquierda.</li>
+                            </ul>
+                        </li>
+                        <li><strong>role:</strong> Define un papel (rol) accesible para el elemento, proporcionando información adicional a las tecnologías de asistencia sobre el propósito del elemento.</li>
+                        <li><strong>aria-label:</strong> Proporciona una etiqueta accesible que describe el propósito del elemento para usuarios de tecnologías de asistencia.</li>
+                        <li><strong>aria-labelledby:</strong> Referencia el ID de otro elemento que proporciona una etiqueta accesible para el <code>&lt;tfoot&gt;</code>, ayudando a describir su propósito.</li>
+                    </ul>
+                    
+                                                            
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="imgTabla/tfoot.PNG" alt="" width="470px" height="450px">
+                        <img src="imgTabla/e6.PNG" alt="" width="830px" height="170px">
+                    </div>
+                    <p>
+                        Línea 19: class="summary": Asigna la clase summary al elemento "tfoot", permitiendo aplicar el estilo CSS definido para esta clase. En este caso, el texto dentro del "tfoot" se mostrará en color verde.
+                      <br>  Línea 20: id="footerSummary": Asigna el identificador único footerSummary al "tfoot". Esto permite hacer referencia al "tfoot" en CSS o JavaScript de manera específica.
+                       <br> Línea 21: style="font-size: 1.1em;": Aplica estilos CSS en línea al "tfoot", haciendo que el texto dentro del "tfoot" tenga un tamaño de fuente ligeramente mayor.
+                        <br>Línea 22: title="Resumen de la tabla": Proporciona un texto emergente (tooltip) que muestra "Resumen de la tabla" cuando el usuario pasa el cursor sobre el "tfoot".                        
+                        <br>Línea 30: Se coloca la etiqueta tfoot, esta indica el pie de la tabla, la resaltamos con color gris; normalmente es usada para mostrar resultados de tablas numéricas.
+
+                     </p>
+                </div>                
+
+            </div>  
+            
+            <div class="carta" id="tbl7">
+                <h2 class="titCarta">Etiqueta  &lt;tr&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;tr&gt; &lt;/tr&gt;
+                        </p>
+                        <p class="etiExplica">
+                            La etiqueta "tr" define una fila dentro de una tabla. Cada fila contiene celdas que pueden ser de datos o encabezados, organizando la información en una estructura tabular.
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>class:</strong> Asigna una o más clases al elemento, permitiendo aplicar estilos CSS específicos.</li>
+                        <li><strong>id:</strong> Asigna un identificador único al elemento, útil para referencia en CSS o JavaScript.</li>
+                        <li><strong>style:</strong> Permite aplicar estilos CSS en línea directamente al elemento.</li>
+                        <li><strong>title:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre el elemento.</li>
+                        <li><strong>lang:</strong> Especifica el idioma del contenido del elemento, ayudando a los navegadores y herramientas de accesibilidad a interpretar el texto correctamente.</li>
+                        <li><strong>dir:</strong> Define la dirección del texto dentro del elemento, que puede ser:
+                            <ul>
+                                <li><strong>ltr:</strong> De izquierda a derecha.</li>
+                                <li><strong>rtl:</strong> De derecha a izquierda.</li>
+                            </ul>
+                        </li>
+                        <li><strong>role:</strong> Define un papel (rol) accesible para el elemento, proporcionando información adicional a las tecnologías de asistencia sobre el propósito del elemento.</li>
+                        <li><strong>aria-label:</strong> Proporciona una etiqueta accesible que describe el propósito del elemento para usuarios de tecnologías de asistencia.</li>
+                        <li><strong>aria-labelledby:</strong> Referencia el ID de otro elemento que proporciona una etiqueta accesible para el <code>&lt;tr&gt;</code>, ayudando a describir su propósito.</li>
+                        <li><strong>aria-describedby:</strong> Referencia el ID de otro elemento que proporciona una descripción accesible del <code>&lt;tr&gt;</code>.</li>
+                    </ul>
+                                        
+                                                            
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="imgTabla/tr.PNG" alt="" width="500px" height="550px">
+                        <img src="imgTabla/e7.PNG" alt="" width="830px" height="120px">
+                    </div>
+                    <p>
+
+                        Línea 11: class="highlight": Asigna la clase highlight al elemento "tr", permitiendo aplicar el estilo CSS definido para esta clase. En este caso, se aplica un color de fondo amarillo claro al "tr" que se utiliza para el encabezado.
+                       <br> Línea 12: id="headerRow": Asigna el identificador único headerRow al "tr". Esto permite hacer referencia al "tr" en CSS o JavaScript de manera específica, como en el encabezado de la tabla.
+                        <br>Línea 13: style="font-size: 1.2em;": Aplica estilos CSS en línea al "tr", haciendo que el texto dentro de la fila del encabezado tenga un tamaño de fuente mayor.
+                        <br>    Línea 14: title="Encabezado de la tabla": Proporciona un texto emergente (tooltip) que muestra "Encabezado de la tabla" cuando el usuario pasa el cursor sobre la fila del encabezado.
+                        <br>    Línea 17: class="highlight": Asigna la clase highlight al elemento "tr", permitiendo aplicar el estilo CSS definido para esta clase. En este caso, se aplica un color de fondo gris claro a la fila de datos.
+                        <br>    Línea 18: id="dataRow1": Asigna el identificador único dataRow1 al "tr". Esto permite hacer referencia al "tr" en CSS o JavaScript de manera específica, como en la fila de datos para América del Norte.
+                        <br>    Línea 19: style="background-color: #f9f9f9;": Aplica estilos CSS en línea al "tr", haciendo que el fondo de la fila de datos tenga un color gris claro.
+                        <br>    Línea 20: title="Datos de América del Norte": Proporciona un texto emergente (tooltip) que muestra "Datos de América del Norte" cuando el usuario pasa el cursor sobre la fila de datos.
+                        <br>   Línea 22: class="total": Asigna la clase total al elemento "tr", permitiendo aplicar el estilo CSS definido para esta clase. En este caso, se aplica un estilo en negrita a la fila de totales.
+                        <br>   Línea 23: id="totalRow": Asigna el identificador único totalRow al "tr". Esto permite hacer referencia al "tr" en CSS o JavaScript de manera específica, como en la fila de totales.
+                        <br>   Línea 24: style="background-color: #e0e0e0;": Aplica estilos CSS en línea al "tr", haciendo que el fondo de la fila de totales tenga un color gris claro.
+                        <br>   Línea 25: title="Fila de totales": Proporciona un texto emergente (tooltip) que muestra "Fila de totales" cuando el usuario pasa el cursor sobre la fila de totales.
+                     </p>
+                </div>                
+
+            </div>  
+            
+            <div class="carta" id="tbl8">
+                <h2 class="titCarta">Etiqueta  &lt;td&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;td&gt; &lt;/td&gt; 
+                        </p>
+                        <p class="etiExplica">
+                            La etiqueta "td" se utiliza para definir una celda de datos en una fila de la tabla. Cada celda de datos contiene el contenido que se mostrará en la tabla; se coloca dentro de una fila "tr", y cada celda representa un dato en la tabla.                            
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+                    <ul>
+                        <li><strong>colspan:</strong> Define el número de columnas que una celda debe abarcar horizontalmente.</li>
+                        <li><strong>rowspan:</strong> Define el número de filas que una celda debe abarcar verticalmente.</li>
+                        <li><strong>headers:</strong> Especifica uno o más identificadores de encabezado (id) para las celdas de encabezado (&lt;th&gt;) que son relevantes para la celda actual. Ayuda a proporcionar contexto adicional para tecnologías de asistencia.</li>
+                        <li><strong>class:</strong> Asigna una o más clases al elemento, permitiendo aplicar estilos CSS específicos.</li>
+                        <li><strong>id:</strong> Asigna un identificador único al elemento, útil para referencia en CSS o JavaScript.</li>
+                        <li><strong>style:</strong> Permite aplicar estilos CSS en línea directamente al elemento.</li>
+                        <li><strong>title:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre el elemento.</li>
+                        <li><strong>lang:</strong> Especifica el idioma del contenido del elemento, ayudando a los navegadores y herramientas de accesibilidad a interpretar el texto correctamente.</li>
+                        <li><strong>dir:</strong> Define la dirección del texto dentro del elemento, que puede ser:
+                            <ul>
+                                <li><strong>ltr:</strong> De izquierda a derecha.</li>
+                                <li><strong>rtl:</strong> De derecha a izquierda.</li>
+                            </ul>
+                        </li>
+                        <li><strong>role:</strong> Define un papel (rol) accesible para el elemento, proporcionando información adicional a las tecnologías de asistencia sobre el propósito del elemento.</li>
+                        <li><strong>aria-label:</strong> Proporciona una etiqueta accesible que describe el propósito del elemento para usuarios de tecnologías de asistencia.</li>
+                        <li><strong>aria-labelledby:</strong> Referencia el ID de otro elemento que proporciona una etiqueta accesible para el <code>&lt;td&gt;</code>, ayudando a describir su propósito.</li>
+                        <li><strong>aria-describedby:</strong> Referencia el ID de otro elemento que proporciona una descripción accesible del <code>&lt;td&gt;</code>.</li>
+                    </ul>
+                    
+                                                            
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="imgTabla/td.PNG" alt="" width="500px" height="450px">
+                        <img src="imgTabla/e8.PNG" alt="" width="830px" height="120px">
+                    </div>
+                    <p>
+                        Línea 18: class="highlight": Asigna la clase highlight al "td", permitiendo aplicar el estilo CSS definido para esta clase. En este caso, se aplica un color de fondo gris claro a la celda.
+                        <br>    Línea 19: colspan="2": Hace que la celda abarque dos columnas horizontalmente, fusionando dos celdas en una sola.
+                        <br>      Línea 20: headers="headerRegion": Especifica que el "td" está relacionado con el encabezado cuyo identificador es headerRegion. Esto proporciona contexto adicional para tecnologías de asistencia.
+                            <br>     Línea 21: title="Datos de América del Norte": Proporciona un texto emergente (tooltip) que muestra "Datos de América del Norte" cuando el usuario pasa el cursor sobre la celda.
+                            <br>    Línea 25: class="important": Asigna la clase important al "td", permitiendo aplicar el estilo CSS definido para esta clase. En este caso, se aplica un estilo en negrita a la celda.
+                                <br>    Línea 26: rowspan="2": Hace que la celda abarque dos filas verticalmente, fusionando la celda con la celda en la fila siguiente.
+                                <br>    Línea 27: title="Total ventas de América del Norte": Proporciona un texto emergente (tooltip) que muestra "Total ventas de América del Norte" cuando el usuario pasa el cursor sobre la celda.
+                                <br> Línea 31: class="highlight": Asigna la clase highlight al "td", permitiendo aplicar el estilo CSS definido para esta clase. En este caso, se aplica un color de fondo gris claro a la celda.
+                                    <br>   Línea 32: colspan="2": Hace que la celda abarque dos columnas horizontalmente, fusionando dos celdas en una sola.
+                                    <br>Línea 19 y 25: Se abren las etiquetas td para indicar que se están creando las celdas de la tabla
+                    </p>
+                </div>                
+
+            </div>  
+            
+            <div class="carta" id="tbl9">
+                <h2 class="titCarta">Etiqueta  &lt;th&gt;</h2>
+                <div class="cotenedor2m">
+                        <p class="eti">
+                            &lt;th&gt; &lt;/th&gt; 
+                        </p>
+                        <p class="etiExplica">
+                            La etiqueta "th" se usa para definir una celda de encabezado en una fila de la tabla. Las celdas de encabezado suelen estar en negrita y centradas, y sirven para describir el contenido de las columnas o filas; se coloca dentro de una fila "tr", generalmente en la sección "thead", para identificar los encabezados de las columnas o filas
+                        </p>
+                </div>
+      
+                <h3 class="titCarta">Atributos</h3>
+                <div class="atributos">
+    
+                    <ul>
+                        <li><strong>colspan:</strong> Define el número de columnas que una celda de encabezado debe abarcar horizontalmente.</li>
+                        <li><strong>rowspan:</strong> Define el número de filas que una celda de encabezado debe abarcar verticalmente.</li>
+                        <li><strong>headers:</strong> Especifica uno o más identificadores de celdas de encabezado (id) que están relacionados con la celda de encabezado actual. Ayuda a proporcionar contexto adicional para tecnologías de asistencia.</li>
+                        <li><strong>scope:</strong> Define el alcance del encabezado. Puede ser:
+                            <ul>
+                                <li><strong>col:</strong> Para una columna.</li>
+                                <li><strong>row:</strong> Para una fila.</li>
+                                <li><strong>colgroup:</strong> Para un grupo de columnas.</li>
+                                <li><strong>rowgroup:</strong> Para un grupo de filas.</li>
+                            </ul>
+                        </li>
+                        <li><strong>class:</strong> Asigna una o más clases al elemento, permitiendo aplicar estilos CSS específicos.</li>
+                        <li><strong>id:</strong> Asigna un identificador único al elemento, útil para referencia en CSS o JavaScript.</li>
+                        <li><strong>style:</strong> Permite aplicar estilos CSS en línea directamente al elemento.</li>
+                        <li><strong>title:</strong> Proporciona un texto emergente (tooltip) que aparece cuando se pasa el cursor sobre el elemento.</li>
+                        <li><strong>lang:</strong> Especifica el idioma del contenido del elemento, ayudando a los navegadores y herramientas de accesibilidad a interpretar el texto correctamente.</li>
+                        <li><strong>dir:</strong> Define la dirección del texto dentro del elemento, que puede ser:
+                            <ul>
+                                <li><strong>ltr:</strong> De izquierda a derecha.</li>
+                                <li><strong>rtl:</strong> De derecha a izquierda.</li>
+                            </ul>
+                        </li>
+                        <li><strong>role:</strong> Define un papel (rol) accesible para el elemento, proporcionando información adicional a las tecnologías de asistencia sobre el propósito del elemento.</li>
+                        <li><strong>aria-label:</strong> Proporciona una etiqueta accesible que describe el propósito del elemento para usuarios de tecnologías de asistencia.</li>
+                        <li><strong>aria-labelledby:</strong> Referencia el ID de otro elemento que proporciona una etiqueta accesible para el <code>&lt;th&gt;</code>, ayudando a describir su propósito.</li>
+                        <li><strong>aria-describedby:</strong> Referencia el ID de otro elemento que proporciona una descripción accesible del <code>&lt;th&gt;</code>.</li>
+                    </ul>
+
+                </div>
+                <h3 class="titCarta">Ejemplo</h3>
+                <br>
+                <div>
+ 
+                    <div>
+                        <img src="imgTabla/th1.PNG" alt="" width="450px" height="500px">
+                    </div>
+                    <div>
+                        <img src="imgTabla/th2.PNG" alt="" width="450px" height="350px">
+                        <img src="imgTabla/e9.PNG" alt="" width="830px" height="120px">
+                    </div>                    
+                    <p>
+                    <br>    Línea 15: class="highlight": Asigna la clase highlight al "th", permitiendo aplicar el estilo CSS definido para esta clase. En este caso, se aplica un color de fondo gris claro a la celda del encabezado.
+                    <br>     Línea 16: colspan="2": Hace que el encabezado abarque dos columnas horizontalmente, fusionando dos celdas de encabezado en una sola.
+                    <br>     Línea 17: rowspan="2": Hace que el encabezado abarque dos filas verticalmente, fusionando la celda con la celda en la fila siguiente.
+                    <br>     Línea 18: scope="col": Define que el encabezado se aplica a la columna, proporcionando contexto adicional para tecnologías de asistencia.
+                    <br>     Línea 19: id="headerRegion": Asigna el identificador único headerRegion al "th", lo que permite hacer referencia al encabezado en CSS o JavaScript.
+                        <br>     Línea 20: title="Encabezado para las regiones": Proporciona un texto emergente (tooltip) que muestra "Encabezado para las regiones" cuando el usuario pasa el cursor sobre el encabezado.
+                        <br>     Línea 22: class="highlight centered": Asigna las clases highlight y centered al "th". La clase highlight aplica el estilo de fondo gris claro y centered centra el texto dentro del encabezado.
+                        <br>     Línea 23: scope="col": Define que el encabezado se aplica a la columna, proporcionando contexto adicional para tecnologías de asistencia.
+                        <br>    Línea 24: id="headerSales": Asigna el identificador único headerSales al "th", permitiendo hacer referencia al encabezado en CSS o JavaScript.
+                        <br>    Línea 25: title="Encabezado para ventas": Proporciona un texto emergente (tooltip) que muestra "Encabezado para ventas" cuando el usuario pasa el cursor sobre el encabezado.
+                        <br>    Línea 27: class="highlight centered": Asigna las clases highlight y centered al "th". La clase highlight aplica el estilo de fondo gris claro y centered centra el texto dentro del encabezado.
+                        <br>    Línea 28: scope="col": Define que el encabezado se aplica a la columna, proporcionando contexto adicional para tecnologías de asistencia.
+                        <br>    Línea 29: id="headerQ1": Asigna el identificador único headerQ1 al "th", permitiendo hacer referencia al encabezado en CSS o JavaScript.
+                        <br>    Línea 30: title="Ventas del primer trimestre": Proporciona un texto emergente (tooltip) que muestra "Ventas del primer trimestre" cuando el usuario pasa el cursor sobre el encabezado.
+                        <br>    Línea 32: class="highlight centered": Asigna las clases highlight y centered al "th". La clase highlight aplica el estilo de fondo gris claro y centered centra el texto dentro del encabezado.
+                        <br>    Línea 33: scope="col": Define que el encabezado se aplica a la columna, proporcionando contexto adicional para tecnologías de asistencia.
+                        <br>    Línea 34: id="headerQ2": Asigna el identificador único headerQ2 al "th", permitiendo hacer referencia al encabezado en CSS o JavaScript.
+                        <br>   Línea 35: title="Ventas del segundo trimestre": Proporciona un texto emergente (tooltip) que muestra "Ventas del segundo trimestre" cuando el usuario pasa el cursor sobre el encabezado.
+                        <br>Línea 13, 21, 29 y 35: Define las etiquetas th para colocar los títulos de la tabla a sus respectivas columnas
+                    </p>
+                </div>                
+
+            </div>  
+                        
+
+
+        </div>
+
+    </div>
+
+
+</body>
+<footer>
+    <div id="contenedor">
+        <div id="cont60">
+            <h2>Instituto Tecnológico de Chilpancingo</h2>
+            <p>Somos estudiantes de la carrera de ingeniería en Sistemas computacionales cursando la asignatura de programación web</p>
+        </div>
+        <div class="cont20">
+            <h2>Contacto</h2>
+            <p>l21520390@chilpancingo.tecnm.mx</p>
+            <p>l21520479@chilpancingo.tecnm.mx</p>
+        </div>
+        <div class="cont20b">
+            <h2>Elaborado por</h2>
+            <p>
+                Mejía López Carlos Abel <br>
+                Pelaez Zacapala Karla Getsemaní
+            </p>
+        </div>                        
+
+    </div>
+</footer>
+</html>
