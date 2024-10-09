@@ -1,0 +1,67 @@
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.navPadding{
+  padding-left: 4%;
+  padding-right: 4%;
+  
+
+}
+h5{
+  font-weight: bolder;
+}
+.nava{
+
+  height: 68px;
+  position: sticky;
+  top: 0;
+  z-index: 999;  
+  margin-bottom: -70px;
+}
+.minusTop{
+  margin-top: -4%;
+
+}
+#grueso{
+  font-weight: bold;
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+.sombre{
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+
+}
+.card-content{
+
+  text-align: justify;
+}
+.rojizo{
+  color: rgb(160, 0, 67);
+
+}
+.fondoBlanco{
+  background-color: rgba(255, 255, 255, 0.764);
+
+}
+
+body{
+  background-image:url("n1.jpg");
+  background-size: cover;
+
+  transition: background-image 1s ease-in-out;
+
+}
